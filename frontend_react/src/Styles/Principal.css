@@ -1,0 +1,40 @@
+/* Principal.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.datos_principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.SolicitudesResumen {
+  flex: 0 0 48%; /* Establece el ancho del componente SolicitudesResumen */
+}
+
+.FechaRango {
+  flex: 0 0 48%; /* Establece el ancho del componente FechaRango */
+  margin-left: auto; /* Desplaza el componente hacia la derecha */
+}
+.graficas_principal {
+  display: flex;
+  justify-content: space-between; /* Ajusta el espacio entre las gráficas */
+}
+
+.grafica-container {
+  flex: 1; /* Hace que cada gráfica ocupe todo el espacio disponible */
+  max-width: 50%; /* Ajusta el ancho máximo de cada gráfica */
+}
+
+.grafica {
+  width: 100%; /* Ajusta el ancho de la gráfica al contenedor */
+  height: auto; /* Ajusta la altura automáticamente según el ancho */
+}
+

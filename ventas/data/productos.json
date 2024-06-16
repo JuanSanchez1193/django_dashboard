@@ -1,0 +1,1092 @@
+[
+    {
+        "id": 1,
+        "nombre": "Producto 1",
+        "descripcion": "Descripci\u00f3n del producto 1",
+        "precio": "597.87",
+        "cantidad_disponible": 26,
+        "fecha_entrada_inventario": "2023-09-09",
+        "codigo": "PYFUTZ",
+        "proveedor": 3
+    },
+    {
+        "id": 2,
+        "nombre": "Producto 2",
+        "descripcion": "Descripci\u00f3n del producto 2",
+        "precio": "37.48",
+        "cantidad_disponible": 85,
+        "fecha_entrada_inventario": "2023-04-23",
+        "codigo": "PKSVMW",
+        "proveedor": 8
+    },
+    {
+        "id": 3,
+        "nombre": "Producto 3",
+        "descripcion": "Descripci\u00f3n del producto 3",
+        "precio": "206.33",
+        "cantidad_disponible": 95,
+        "fecha_entrada_inventario": "2023-04-13",
+        "codigo": "PBHVWH",
+        "proveedor": 19
+    },
+    {
+        "id": 4,
+        "nombre": "Producto 4",
+        "descripcion": "Descripci\u00f3n del producto 4",
+        "precio": "206.47",
+        "cantidad_disponible": 21,
+        "fecha_entrada_inventario": "2023-12-18",
+        "codigo": "PPXMGA",
+        "proveedor": 7
+    },
+    {
+        "id": 5,
+        "nombre": "Producto 5",
+        "descripcion": "Descripci\u00f3n del producto 5",
+        "precio": "463.65",
+        "cantidad_disponible": 51,
+        "fecha_entrada_inventario": "2023-12-28",
+        "codigo": "PJZCSA",
+        "proveedor": 14
+    },
+    {
+        "id": 6,
+        "nombre": "Producto 6",
+        "descripcion": "Descripci\u00f3n del producto 6",
+        "precio": "262.95",
+        "cantidad_disponible": 70,
+        "fecha_entrada_inventario": "2023-06-01",
+        "codigo": "PNBMPQ",
+        "proveedor": 10
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 7",
+        "descripcion": "Descripci\u00f3n del producto 7",
+        "precio": "36.76",
+        "cantidad_disponible": 15,
+        "fecha_entrada_inventario": "2023-12-26",
+        "codigo": "PXVLBD",
+        "proveedor": 7
+    },
+    {
+        "id": 8,
+        "nombre": "Producto 8",
+        "descripcion": "Descripci\u00f3n del producto 8",
+        "precio": "923.27",
+        "cantidad_disponible": 82,
+        "fecha_entrada_inventario": "2023-02-28",
+        "codigo": "PSJDID",
+        "proveedor": 9
+    },
+    {
+        "id": 9,
+        "nombre": "Producto 9",
+        "descripcion": "Descripci\u00f3n del producto 9",
+        "precio": "568.70",
+        "cantidad_disponible": 24,
+        "fecha_entrada_inventario": "2023-08-25",
+        "codigo": "PQANWU",
+        "proveedor": 10
+    },
+    {
+        "id": 10,
+        "nombre": "Producto 10",
+        "descripcion": "Descripci\u00f3n del producto 10",
+        "precio": "360.76",
+        "cantidad_disponible": 91,
+        "fecha_entrada_inventario": "2023-11-03",
+        "codigo": "PBSEGR",
+        "proveedor": 20
+    },
+    {
+        "id": 11,
+        "nombre": "Producto 11",
+        "descripcion": "Descripci\u00f3n del producto 11",
+        "precio": "194.53",
+        "cantidad_disponible": 47,
+        "fecha_entrada_inventario": "2023-01-05",
+        "codigo": "PLIMVL",
+        "proveedor": 15
+    },
+    {
+        "id": 12,
+        "nombre": "Producto 12",
+        "descripcion": "Descripci\u00f3n del producto 12",
+        "precio": "675.96",
+        "cantidad_disponible": 1,
+        "fecha_entrada_inventario": "2023-04-13",
+        "codigo": "POQUEN",
+        "proveedor": 9
+    },
+    {
+        "id": 13,
+        "nombre": "Producto 13",
+        "descripcion": "Descripci\u00f3n del producto 13",
+        "precio": "934.59",
+        "cantidad_disponible": 98,
+        "fecha_entrada_inventario": "2023-12-11",
+        "codigo": "PEIEHV",
+        "proveedor": 10
+    },
+    {
+        "id": 14,
+        "nombre": "Producto 14",
+        "descripcion": "Descripci\u00f3n del producto 14",
+        "precio": "577.57",
+        "cantidad_disponible": 31,
+        "fecha_entrada_inventario": "2023-02-25",
+        "codigo": "PZEHFH",
+        "proveedor": 4
+    },
+    {
+        "id": 15,
+        "nombre": "Producto 15",
+        "descripcion": "Descripci\u00f3n del producto 15",
+        "precio": "202.90",
+        "cantidad_disponible": 91,
+        "fecha_entrada_inventario": "2023-05-22",
+        "codigo": "PEAPIR",
+        "proveedor": 12
+    },
+    {
+        "id": 16,
+        "nombre": "Producto 16",
+        "descripcion": "Descripci\u00f3n del producto 16",
+        "precio": "432.16",
+        "cantidad_disponible": 14,
+        "fecha_entrada_inventario": "2023-06-13",
+        "codigo": "PVKRRS",
+        "proveedor": 5
+    },
+    {
+        "id": 17,
+        "nombre": "Producto 17",
+        "descripcion": "Descripci\u00f3n del producto 17",
+        "precio": "438.68",
+        "cantidad_disponible": 48,
+        "fecha_entrada_inventario": "2023-08-06",
+        "codigo": "PNRVWH",
+        "proveedor": 14
+    },
+    {
+        "id": 18,
+        "nombre": "Producto 18",
+        "descripcion": "Descripci\u00f3n del producto 18",
+        "precio": "21.13",
+        "cantidad_disponible": 40,
+        "fecha_entrada_inventario": "2023-09-27",
+        "codigo": "PLILXI",
+        "proveedor": 2
+    },
+    {
+        "id": 19,
+        "nombre": "Producto 19",
+        "descripcion": "Descripci\u00f3n del producto 19",
+        "precio": "768.81",
+        "cantidad_disponible": 32,
+        "fecha_entrada_inventario": "2023-08-27",
+        "codigo": "PPNQPV",
+        "proveedor": 12
+    },
+    {
+        "id": 20,
+        "nombre": "Producto 20",
+        "descripcion": "Descripci\u00f3n del producto 20",
+        "precio": "262.51",
+        "cantidad_disponible": 5,
+        "fecha_entrada_inventario": "2023-08-11",
+        "codigo": "PTUBKH",
+        "proveedor": 8
+    },
+    {
+        "id": 21,
+        "nombre": "Producto 21",
+        "descripcion": "Descripci\u00f3n del producto 21",
+        "precio": "169.45",
+        "cantidad_disponible": 40,
+        "fecha_entrada_inventario": "2023-03-24",
+        "codigo": "PPNLVP",
+        "proveedor": 19
+    },
+    {
+        "id": 22,
+        "nombre": "Producto 22",
+        "descripcion": "Descripci\u00f3n del producto 22",
+        "precio": "179.71",
+        "cantidad_disponible": 26,
+        "fecha_entrada_inventario": "2023-08-07",
+        "codigo": "PXADSF",
+        "proveedor": 20
+    },
+    {
+        "id": 23,
+        "nombre": "Producto 23",
+        "descripcion": "Descripci\u00f3n del producto 23",
+        "precio": "268.73",
+        "cantidad_disponible": 68,
+        "fecha_entrada_inventario": "2023-06-22",
+        "codigo": "PPESBN",
+        "proveedor": 5
+    },
+    {
+        "id": 24,
+        "nombre": "Producto 24",
+        "descripcion": "Descripci\u00f3n del producto 24",
+        "precio": "837.30",
+        "cantidad_disponible": 27,
+        "fecha_entrada_inventario": "2023-12-20",
+        "codigo": "PPFGFO",
+        "proveedor": 2
+    },
+    {
+        "id": 25,
+        "nombre": "Producto 25",
+        "descripcion": "Descripci\u00f3n del producto 25",
+        "precio": "640.42",
+        "cantidad_disponible": 29,
+        "fecha_entrada_inventario": "2023-07-27",
+        "codigo": "PLPPLM",
+        "proveedor": 11
+    },
+    {
+        "id": 26,
+        "nombre": "Producto 26",
+        "descripcion": "Descripci\u00f3n del producto 26",
+        "precio": "708.59",
+        "cantidad_disponible": 20,
+        "fecha_entrada_inventario": "2023-10-19",
+        "codigo": "PUFHVI",
+        "proveedor": 16
+    },
+    {
+        "id": 27,
+        "nombre": "Producto 27",
+        "descripcion": "Descripci\u00f3n del producto 27",
+        "precio": "900.16",
+        "cantidad_disponible": 77,
+        "fecha_entrada_inventario": "2023-04-29",
+        "codigo": "PRRTJZ",
+        "proveedor": 6
+    },
+    {
+        "id": 28,
+        "nombre": "Producto 28",
+        "descripcion": "Descripci\u00f3n del producto 28",
+        "precio": "506.83",
+        "cantidad_disponible": 5,
+        "fecha_entrada_inventario": "2023-12-24",
+        "codigo": "PLJNFN",
+        "proveedor": 6
+    },
+    {
+        "id": 29,
+        "nombre": "Producto 29",
+        "descripcion": "Descripci\u00f3n del producto 29",
+        "precio": "405.77",
+        "cantidad_disponible": 3,
+        "fecha_entrada_inventario": "2023-07-01",
+        "codigo": "PLDKEP",
+        "proveedor": 4
+    },
+    {
+        "id": 30,
+        "nombre": "Producto 30",
+        "descripcion": "Descripci\u00f3n del producto 30",
+        "precio": "780.10",
+        "cantidad_disponible": 28,
+        "fecha_entrada_inventario": "2023-12-17",
+        "codigo": "PNXDMC",
+        "proveedor": 10
+    },
+    {
+        "id": 31,
+        "nombre": "Producto 31",
+        "descripcion": "Descripci\u00f3n del producto 31",
+        "precio": "59.17",
+        "cantidad_disponible": 60,
+        "fecha_entrada_inventario": "2023-07-21",
+        "codigo": "PEFREE",
+        "proveedor": 7
+    },
+    {
+        "id": 32,
+        "nombre": "Producto 32",
+        "descripcion": "Descripci\u00f3n del producto 32",
+        "precio": "376.62",
+        "cantidad_disponible": 13,
+        "fecha_entrada_inventario": "2023-11-10",
+        "codigo": "PUVLUS",
+        "proveedor": 3
+    },
+    {
+        "id": 33,
+        "nombre": "Producto 33",
+        "descripcion": "Descripci\u00f3n del producto 33",
+        "precio": "351.44",
+        "cantidad_disponible": 44,
+        "fecha_entrada_inventario": "2023-06-05",
+        "codigo": "PJTAXK",
+        "proveedor": 8
+    },
+    {
+        "id": 34,
+        "nombre": "Producto 34",
+        "descripcion": "Descripci\u00f3n del producto 34",
+        "precio": "288.86",
+        "cantidad_disponible": 10,
+        "fecha_entrada_inventario": "2023-05-30",
+        "codigo": "PACPJS",
+        "proveedor": 9
+    },
+    {
+        "id": 35,
+        "nombre": "Producto 35",
+        "descripcion": "Descripci\u00f3n del producto 35",
+        "precio": "763.28",
+        "cantidad_disponible": 59,
+        "fecha_entrada_inventario": "2023-02-12",
+        "codigo": "PDGLQY",
+        "proveedor": 15
+    },
+    {
+        "id": 36,
+        "nombre": "Producto 36",
+        "descripcion": "Descripci\u00f3n del producto 36",
+        "precio": "426.10",
+        "cantidad_disponible": 69,
+        "fecha_entrada_inventario": "2023-09-15",
+        "codigo": "PNSIKL",
+        "proveedor": 11
+    },
+    {
+        "id": 37,
+        "nombre": "Producto 37",
+        "descripcion": "Descripci\u00f3n del producto 37",
+        "precio": "523.74",
+        "cantidad_disponible": 10,
+        "fecha_entrada_inventario": "2023-07-19",
+        "codigo": "PLSSSH",
+        "proveedor": 2
+    },
+    {
+        "id": 38,
+        "nombre": "Producto 38",
+        "descripcion": "Descripci\u00f3n del producto 38",
+        "precio": "949.18",
+        "cantidad_disponible": 55,
+        "fecha_entrada_inventario": "2023-07-29",
+        "codigo": "PRIXED",
+        "proveedor": 14
+    },
+    {
+        "id": 39,
+        "nombre": "Producto 39",
+        "descripcion": "Descripci\u00f3n del producto 39",
+        "precio": "276.90",
+        "cantidad_disponible": 45,
+        "fecha_entrada_inventario": "2023-03-16",
+        "codigo": "POQTHJ",
+        "proveedor": 4
+    },
+    {
+        "id": 40,
+        "nombre": "Producto 40",
+        "descripcion": "Descripci\u00f3n del producto 40",
+        "precio": "437.88",
+        "cantidad_disponible": 33,
+        "fecha_entrada_inventario": "2023-11-16",
+        "codigo": "PAPDFM",
+        "proveedor": 5
+    },
+    {
+        "id": 41,
+        "nombre": "Producto 41",
+        "descripcion": "Descripci\u00f3n del producto 41",
+        "precio": "822.54",
+        "cantidad_disponible": 99,
+        "fecha_entrada_inventario": "2023-12-17",
+        "codigo": "PMQVCL",
+        "proveedor": 8
+    },
+    {
+        "id": 42,
+        "nombre": "Producto 42",
+        "descripcion": "Descripci\u00f3n del producto 42",
+        "precio": "983.80",
+        "cantidad_disponible": 91,
+        "fecha_entrada_inventario": "2023-06-19",
+        "codigo": "PYADRI",
+        "proveedor": 16
+    },
+    {
+        "id": 43,
+        "nombre": "Producto 43",
+        "descripcion": "Descripci\u00f3n del producto 43",
+        "precio": "246.14",
+        "cantidad_disponible": 64,
+        "fecha_entrada_inventario": "2023-11-21",
+        "codigo": "PUHVGD",
+        "proveedor": 19
+    },
+    {
+        "id": 44,
+        "nombre": "Producto 44",
+        "descripcion": "Descripci\u00f3n del producto 44",
+        "precio": "96.97",
+        "cantidad_disponible": 61,
+        "fecha_entrada_inventario": "2023-09-26",
+        "codigo": "POBTIJ",
+        "proveedor": 3
+    },
+    {
+        "id": 45,
+        "nombre": "Producto 45",
+        "descripcion": "Descripci\u00f3n del producto 45",
+        "precio": "524.56",
+        "cantidad_disponible": 10,
+        "fecha_entrada_inventario": "2023-02-08",
+        "codigo": "PDNRQM",
+        "proveedor": 3
+    },
+    {
+        "id": 46,
+        "nombre": "Producto 46",
+        "descripcion": "Descripci\u00f3n del producto 46",
+        "precio": "108.59",
+        "cantidad_disponible": 78,
+        "fecha_entrada_inventario": "2023-10-08",
+        "codigo": "PQXDFD",
+        "proveedor": 14
+    },
+    {
+        "id": 47,
+        "nombre": "Producto 47",
+        "descripcion": "Descripci\u00f3n del producto 47",
+        "precio": "269.27",
+        "cantidad_disponible": 54,
+        "fecha_entrada_inventario": "2023-02-25",
+        "codigo": "PEBFTG",
+        "proveedor": 19
+    },
+    {
+        "id": 48,
+        "nombre": "Producto 48",
+        "descripcion": "Descripci\u00f3n del producto 48",
+        "precio": "862.84",
+        "cantidad_disponible": 87,
+        "fecha_entrada_inventario": "2023-11-05",
+        "codigo": "PJYOMH",
+        "proveedor": 8
+    },
+    {
+        "id": 49,
+        "nombre": "Producto 49",
+        "descripcion": "Descripci\u00f3n del producto 49",
+        "precio": "923.83",
+        "cantidad_disponible": 87,
+        "fecha_entrada_inventario": "2023-10-09",
+        "codigo": "PTJITD",
+        "proveedor": 9
+    },
+    {
+        "id": 50,
+        "nombre": "Producto 50",
+        "descripcion": "Descripci\u00f3n del producto 50",
+        "precio": "818.40",
+        "cantidad_disponible": 83,
+        "fecha_entrada_inventario": "2023-03-22",
+        "codigo": "PXFRHJ",
+        "proveedor": 15
+    },
+    {
+        "id": 51,
+        "nombre": "Producto 51",
+        "descripcion": "Descripci\u00f3n del producto 51",
+        "precio": "291.32",
+        "cantidad_disponible": 8,
+        "fecha_entrada_inventario": "2023-03-11",
+        "codigo": "PDXZRR",
+        "proveedor": 20
+    },
+    {
+        "id": 52,
+        "nombre": "Producto 52",
+        "descripcion": "Descripci\u00f3n del producto 52",
+        "precio": "784.71",
+        "cantidad_disponible": 14,
+        "fecha_entrada_inventario": "2023-10-11",
+        "codigo": "PDKSIT",
+        "proveedor": 18
+    },
+    {
+        "id": 53,
+        "nombre": "Producto 53",
+        "descripcion": "Descripci\u00f3n del producto 53",
+        "precio": "150.20",
+        "cantidad_disponible": 68,
+        "fecha_entrada_inventario": "2023-07-18",
+        "codigo": "PURGYJ",
+        "proveedor": 16
+    },
+    {
+        "id": 54,
+        "nombre": "Producto 54",
+        "descripcion": "Descripci\u00f3n del producto 54",
+        "precio": "143.09",
+        "cantidad_disponible": 47,
+        "fecha_entrada_inventario": "2023-05-06",
+        "codigo": "PNEFAX",
+        "proveedor": 18
+    },
+    {
+        "id": 55,
+        "nombre": "Producto 55",
+        "descripcion": "Descripci\u00f3n del producto 55",
+        "precio": "669.46",
+        "cantidad_disponible": 96,
+        "fecha_entrada_inventario": "2023-04-06",
+        "codigo": "PWPYKO",
+        "proveedor": 10
+    },
+    {
+        "id": 56,
+        "nombre": "Producto 56",
+        "descripcion": "Descripci\u00f3n del producto 56",
+        "precio": "61.32",
+        "cantidad_disponible": 57,
+        "fecha_entrada_inventario": "2023-01-12",
+        "codigo": "PTKIAJ",
+        "proveedor": 5
+    },
+    {
+        "id": 57,
+        "nombre": "Producto 57",
+        "descripcion": "Descripci\u00f3n del producto 57",
+        "precio": "699.59",
+        "cantidad_disponible": 68,
+        "fecha_entrada_inventario": "2023-05-07",
+        "codigo": "PEYPQS",
+        "proveedor": 3
+    },
+    {
+        "id": 58,
+        "nombre": "Producto 58",
+        "descripcion": "Descripci\u00f3n del producto 58",
+        "precio": "898.98",
+        "cantidad_disponible": 11,
+        "fecha_entrada_inventario": "2023-05-29",
+        "codigo": "PURPHN",
+        "proveedor": 8
+    },
+    {
+        "id": 59,
+        "nombre": "Producto 59",
+        "descripcion": "Descripci\u00f3n del producto 59",
+        "precio": "137.88",
+        "cantidad_disponible": 86,
+        "fecha_entrada_inventario": "2023-08-28",
+        "codigo": "PEYUUU",
+        "proveedor": 12
+    },
+    {
+        "id": 60,
+        "nombre": "Producto 60",
+        "descripcion": "Descripci\u00f3n del producto 60",
+        "precio": "285.30",
+        "cantidad_disponible": 88,
+        "fecha_entrada_inventario": "2023-11-01",
+        "codigo": "PFQCOX",
+        "proveedor": 8
+    },
+    {
+        "id": 61,
+        "nombre": "Producto 61",
+        "descripcion": "Descripci\u00f3n del producto 61",
+        "precio": "734.54",
+        "cantidad_disponible": 70,
+        "fecha_entrada_inventario": "2023-11-01",
+        "codigo": "PRVCUC",
+        "proveedor": 17
+    },
+    {
+        "id": 62,
+        "nombre": "Producto 62",
+        "descripcion": "Descripci\u00f3n del producto 62",
+        "precio": "28.69",
+        "cantidad_disponible": 72,
+        "fecha_entrada_inventario": "2023-01-12",
+        "codigo": "PTSEWQ",
+        "proveedor": 7
+    },
+    {
+        "id": 63,
+        "nombre": "Producto 63",
+        "descripcion": "Descripci\u00f3n del producto 63",
+        "precio": "460.05",
+        "cantidad_disponible": 30,
+        "fecha_entrada_inventario": "2023-03-09",
+        "codigo": "PDJJZN",
+        "proveedor": 11
+    },
+    {
+        "id": 64,
+        "nombre": "Producto 64",
+        "descripcion": "Descripci\u00f3n del producto 64",
+        "precio": "827.97",
+        "cantidad_disponible": 5,
+        "fecha_entrada_inventario": "2023-06-05",
+        "codigo": "PQHQIJ",
+        "proveedor": 18
+    },
+    {
+        "id": 65,
+        "nombre": "Producto 65",
+        "descripcion": "Descripci\u00f3n del producto 65",
+        "precio": "932.74",
+        "cantidad_disponible": 31,
+        "fecha_entrada_inventario": "2023-09-23",
+        "codigo": "PQBAGT",
+        "proveedor": 17
+    },
+    {
+        "id": 66,
+        "nombre": "Producto 66",
+        "descripcion": "Descripci\u00f3n del producto 66",
+        "precio": "666.37",
+        "cantidad_disponible": 2,
+        "fecha_entrada_inventario": "2023-08-29",
+        "codigo": "PEAOLY",
+        "proveedor": 7
+    },
+    {
+        "id": 67,
+        "nombre": "Producto 67",
+        "descripcion": "Descripci\u00f3n del producto 67",
+        "precio": "54.19",
+        "cantidad_disponible": 58,
+        "fecha_entrada_inventario": "2023-10-25",
+        "codigo": "PFRIFP",
+        "proveedor": 9
+    },
+    {
+        "id": 68,
+        "nombre": "Producto 68",
+        "descripcion": "Descripci\u00f3n del producto 68",
+        "precio": "993.05",
+        "cantidad_disponible": 44,
+        "fecha_entrada_inventario": "2023-08-03",
+        "codigo": "PWHGYV",
+        "proveedor": 12
+    },
+    {
+        "id": 69,
+        "nombre": "Producto 69",
+        "descripcion": "Descripci\u00f3n del producto 69",
+        "precio": "646.77",
+        "cantidad_disponible": 51,
+        "fecha_entrada_inventario": "2023-04-22",
+        "codigo": "PTNDSA",
+        "proveedor": 9
+    },
+    {
+        "id": 70,
+        "nombre": "Producto 70",
+        "descripcion": "Descripci\u00f3n del producto 70",
+        "precio": "144.31",
+        "cantidad_disponible": 9,
+        "fecha_entrada_inventario": "2023-02-10",
+        "codigo": "PDRTNW",
+        "proveedor": 3
+    },
+    {
+        "id": 71,
+        "nombre": "Producto 71",
+        "descripcion": "Descripci\u00f3n del producto 71",
+        "precio": "644.32",
+        "cantidad_disponible": 30,
+        "fecha_entrada_inventario": "2023-11-19",
+        "codigo": "PXBWAE",
+        "proveedor": 10
+    },
+    {
+        "id": 72,
+        "nombre": "Producto 72",
+        "descripcion": "Descripci\u00f3n del producto 72",
+        "precio": "695.36",
+        "cantidad_disponible": 81,
+        "fecha_entrada_inventario": "2023-03-18",
+        "codigo": "PGKKYT",
+        "proveedor": 9
+    },
+    {
+        "id": 73,
+        "nombre": "Producto 73",
+        "descripcion": "Descripci\u00f3n del producto 73",
+        "precio": "87.44",
+        "cantidad_disponible": 21,
+        "fecha_entrada_inventario": "2023-07-19",
+        "codigo": "PPOSBY",
+        "proveedor": 11
+    },
+    {
+        "id": 74,
+        "nombre": "Producto 74",
+        "descripcion": "Descripci\u00f3n del producto 74",
+        "precio": "891.05",
+        "cantidad_disponible": 78,
+        "fecha_entrada_inventario": "2023-02-27",
+        "codigo": "PSFTJS",
+        "proveedor": 12
+    },
+    {
+        "id": 75,
+        "nombre": "Producto 75",
+        "descripcion": "Descripci\u00f3n del producto 75",
+        "precio": "861.76",
+        "cantidad_disponible": 79,
+        "fecha_entrada_inventario": "2023-09-08",
+        "codigo": "PGBKLZ",
+        "proveedor": 10
+    },
+    {
+        "id": 76,
+        "nombre": "Producto 76",
+        "descripcion": "Descripci\u00f3n del producto 76",
+        "precio": "18.06",
+        "cantidad_disponible": 50,
+        "fecha_entrada_inventario": "2023-05-31",
+        "codigo": "PTXJLP",
+        "proveedor": 12
+    },
+    {
+        "id": 77,
+        "nombre": "Producto 77",
+        "descripcion": "Descripci\u00f3n del producto 77",
+        "precio": "496.81",
+        "cantidad_disponible": 71,
+        "fecha_entrada_inventario": "2023-09-25",
+        "codigo": "PMBHBS",
+        "proveedor": 18
+    },
+    {
+        "id": 78,
+        "nombre": "Producto 78",
+        "descripcion": "Descripci\u00f3n del producto 78",
+        "precio": "644.01",
+        "cantidad_disponible": 81,
+        "fecha_entrada_inventario": "2023-07-20",
+        "codigo": "PJYMFY",
+        "proveedor": 20
+    },
+    {
+        "id": 79,
+        "nombre": "Producto 79",
+        "descripcion": "Descripci\u00f3n del producto 79",
+        "precio": "449.07",
+        "cantidad_disponible": 65,
+        "fecha_entrada_inventario": "2023-04-21",
+        "codigo": "PJIGKX",
+        "proveedor": 1
+    },
+    {
+        "id": 80,
+        "nombre": "Producto 80",
+        "descripcion": "Descripci\u00f3n del producto 80",
+        "precio": "556.14",
+        "cantidad_disponible": 82,
+        "fecha_entrada_inventario": "2023-11-01",
+        "codigo": "PWCTLO",
+        "proveedor": 19
+    },
+    {
+        "id": 81,
+        "nombre": "Producto 81",
+        "descripcion": "Descripci\u00f3n del producto 81",
+        "precio": "596.83",
+        "cantidad_disponible": 27,
+        "fecha_entrada_inventario": "2023-05-17",
+        "codigo": "PSXAXL",
+        "proveedor": 7
+    },
+    {
+        "id": 82,
+        "nombre": "Producto 82",
+        "descripcion": "Descripci\u00f3n del producto 82",
+        "precio": "458.50",
+        "cantidad_disponible": 71,
+        "fecha_entrada_inventario": "2023-10-04",
+        "codigo": "PRDTCG",
+        "proveedor": 13
+    },
+    {
+        "id": 83,
+        "nombre": "Producto 83",
+        "descripcion": "Descripci\u00f3n del producto 83",
+        "precio": "977.70",
+        "cantidad_disponible": 95,
+        "fecha_entrada_inventario": "2023-06-03",
+        "codigo": "PROPIX",
+        "proveedor": 12
+    },
+    {
+        "id": 84,
+        "nombre": "Producto 84",
+        "descripcion": "Descripci\u00f3n del producto 84",
+        "precio": "110.20",
+        "cantidad_disponible": 56,
+        "fecha_entrada_inventario": "2023-09-11",
+        "codigo": "PHEZSM",
+        "proveedor": 12
+    },
+    {
+        "id": 85,
+        "nombre": "Producto 85",
+        "descripcion": "Descripci\u00f3n del producto 85",
+        "precio": "713.93",
+        "cantidad_disponible": 56,
+        "fecha_entrada_inventario": "2023-01-02",
+        "codigo": "PHBQVJ",
+        "proveedor": 16
+    },
+    {
+        "id": 86,
+        "nombre": "Producto 86",
+        "descripcion": "Descripci\u00f3n del producto 86",
+        "precio": "209.75",
+        "cantidad_disponible": 38,
+        "fecha_entrada_inventario": "2023-04-27",
+        "codigo": "PPGHGC",
+        "proveedor": 4
+    },
+    {
+        "id": 87,
+        "nombre": "Producto 87",
+        "descripcion": "Descripci\u00f3n del producto 87",
+        "precio": "732.57",
+        "cantidad_disponible": 45,
+        "fecha_entrada_inventario": "2023-04-10",
+        "codigo": "PVWADR",
+        "proveedor": 4
+    },
+    {
+        "id": 88,
+        "nombre": "Producto 88",
+        "descripcion": "Descripci\u00f3n del producto 88",
+        "precio": "938.72",
+        "cantidad_disponible": 5,
+        "fecha_entrada_inventario": "2023-01-25",
+        "codigo": "PIFCRB",
+        "proveedor": 3
+    },
+    {
+        "id": 89,
+        "nombre": "Producto 89",
+        "descripcion": "Descripci\u00f3n del producto 89",
+        "precio": "439.50",
+        "cantidad_disponible": 33,
+        "fecha_entrada_inventario": "2023-11-30",
+        "codigo": "PZUWFX",
+        "proveedor": 16
+    },
+    {
+        "id": 90,
+        "nombre": "Producto 90",
+        "descripcion": "Descripci\u00f3n del producto 90",
+        "precio": "155.66",
+        "cantidad_disponible": 21,
+        "fecha_entrada_inventario": "2023-12-15",
+        "codigo": "PTWEOH",
+        "proveedor": 1
+    },
+    {
+        "id": 91,
+        "nombre": "Producto 91",
+        "descripcion": "Descripci\u00f3n del producto 91",
+        "precio": "584.26",
+        "cantidad_disponible": 94,
+        "fecha_entrada_inventario": "2023-04-05",
+        "codigo": "PYSMUA",
+        "proveedor": 6
+    },
+    {
+        "id": 92,
+        "nombre": "Producto 92",
+        "descripcion": "Descripci\u00f3n del producto 92",
+        "precio": "243.83",
+        "cantidad_disponible": 15,
+        "fecha_entrada_inventario": "2023-09-30",
+        "codigo": "PDVNGW",
+        "proveedor": 13
+    },
+    {
+        "id": 93,
+        "nombre": "Producto 93",
+        "descripcion": "Descripci\u00f3n del producto 93",
+        "precio": "947.28",
+        "cantidad_disponible": 7,
+        "fecha_entrada_inventario": "2023-06-01",
+        "codigo": "PFUSOY",
+        "proveedor": 18
+    },
+    {
+        "id": 94,
+        "nombre": "Producto 94",
+        "descripcion": "Descripci\u00f3n del producto 94",
+        "precio": "292.69",
+        "cantidad_disponible": 12,
+        "fecha_entrada_inventario": "2023-03-12",
+        "codigo": "PEPZSM",
+        "proveedor": 16
+    },
+    {
+        "id": 95,
+        "nombre": "Producto 95",
+        "descripcion": "Descripci\u00f3n del producto 95",
+        "precio": "790.54",
+        "cantidad_disponible": 14,
+        "fecha_entrada_inventario": "2023-02-02",
+        "codigo": "PIBDGR",
+        "proveedor": 16
+    },
+    {
+        "id": 96,
+        "nombre": "Producto 96",
+        "descripcion": "Descripci\u00f3n del producto 96",
+        "precio": "879.91",
+        "cantidad_disponible": 95,
+        "fecha_entrada_inventario": "2023-11-22",
+        "codigo": "PZBCDF",
+        "proveedor": 2
+    },
+    {
+        "id": 97,
+        "nombre": "Producto 97",
+        "descripcion": "Descripci\u00f3n del producto 97",
+        "precio": "729.63",
+        "cantidad_disponible": 29,
+        "fecha_entrada_inventario": "2023-03-09",
+        "codigo": "PBWJCW",
+        "proveedor": 10
+    },
+    {
+        "id": 98,
+        "nombre": "Producto 98",
+        "descripcion": "Descripci\u00f3n del producto 98",
+        "precio": "394.98",
+        "cantidad_disponible": 37,
+        "fecha_entrada_inventario": "2023-05-29",
+        "codigo": "PRIPXC",
+        "proveedor": 10
+    },
+    {
+        "id": 99,
+        "nombre": "Producto 99",
+        "descripcion": "Descripci\u00f3n del producto 99",
+        "precio": "505.06",
+        "cantidad_disponible": 65,
+        "fecha_entrada_inventario": "2023-08-06",
+        "codigo": "PFVBCI",
+        "proveedor": 5
+    },
+    {
+        "id": 100,
+        "nombre": "Producto 100",
+        "descripcion": "Descripci\u00f3n del producto 100",
+        "precio": "263.88",
+        "cantidad_disponible": 93,
+        "fecha_entrada_inventario": "2023-07-17",
+        "codigo": "PSANTJ",
+        "proveedor": 2
+    },
+    {
+        "id": 101,
+        "nombre": "Producto 101",
+        "descripcion": "Descripci\u00f3n del producto 101",
+        "precio": "543.23",
+        "cantidad_disponible": 3,
+        "fecha_entrada_inventario": "2023-11-20",
+        "codigo": "PGUGKJ",
+        "proveedor": 17
+    },
+    {
+        "id": 102,
+        "nombre": "Producto 102",
+        "descripcion": "Descripci\u00f3n del producto 102",
+        "precio": "265.78",
+        "cantidad_disponible": 6,
+        "fecha_entrada_inventario": "2023-02-07",
+        "codigo": "PBOLBA",
+        "proveedor": 13
+    },
+    {
+        "id": 103,
+        "nombre": "Producto 103",
+        "descripcion": "Descripci\u00f3n del producto 103",
+        "precio": "367.20",
+        "cantidad_disponible": 4,
+        "fecha_entrada_inventario": "2023-11-05",
+        "codigo": "PBQZST",
+        "proveedor": 12
+    },
+    {
+        "id": 104,
+        "nombre": "Producto 104",
+        "descripcion": "Descripci\u00f3n del producto 104",
+        "precio": "360.99",
+        "cantidad_disponible": 65,
+        "fecha_entrada_inventario": "2023-02-09",
+        "codigo": "PDEJTF",
+        "proveedor": 14
+    },
+    {
+        "id": 105,
+        "nombre": "Producto 105",
+        "descripcion": "Descripci\u00f3n del producto 105",
+        "precio": "293.77",
+        "cantidad_disponible": 13,
+        "fecha_entrada_inventario": "2023-02-26",
+        "codigo": "PGFQMZ",
+        "proveedor": 10
+    },
+    {
+        "id": 106,
+        "nombre": "Producto 106",
+        "descripcion": "Descripci\u00f3n del producto 106",
+        "precio": "892.95",
+        "cantidad_disponible": 54,
+        "fecha_entrada_inventario": "2023-08-15",
+        "codigo": "PRRPOU",
+        "proveedor": 20
+    },
+    {
+        "id": 107,
+        "nombre": "Producto 107",
+        "descripcion": "Descripci\u00f3n del producto 107",
+        "precio": "300.99",
+        "cantidad_disponible": 97,
+        "fecha_entrada_inventario": "2023-05-26",
+        "codigo": "PPUYZE",
+        "proveedor": 4
+    },
+    {
+        "id": 108,
+        "nombre": "Producto 108",
+        "descripcion": "Descripci\u00f3n del producto 108",
+        "precio": "222.97",
+        "cantidad_disponible": 77,
+        "fecha_entrada_inventario": "2023-11-22",
+        "codigo": "PJNMAX",
+        "proveedor": 3
+    },
+    {
+        "id": 109,
+        "nombre": "Producto 109",
+        "descripcion": "Descripci\u00f3n del producto 109",
+        "precio": "322.43",
+        "cantidad_disponible": 93,
+        "fecha_entrada_inventario": "2023-12-16",
+        "codigo": "PMBKGI",
+        "proveedor": 6
+    }
+]

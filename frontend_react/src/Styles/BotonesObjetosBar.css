@@ -1,0 +1,31 @@
+/* BotonesObjetosBar.css */
+
+.botones-objetos-bar {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.boton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  margin-right: 20px; 
+}
+
+.boton:hover {
+  background-color: #1b86f8;
+}
+
+.boton:link, .boton:visited {
+  color: white;
+}

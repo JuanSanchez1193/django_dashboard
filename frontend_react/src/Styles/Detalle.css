@@ -1,0 +1,23 @@
+.detalle-objeto {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: black;
+  }
+  
+  .detalle-objeto h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .detalle-objeto-campo {
+    margin-bottom: 10px;
+  }
+  
+  .detalle-objeto-campo strong {
+    margin-right: 10px;
+  }
+  

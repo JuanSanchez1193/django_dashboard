@@ -1,0 +1,35 @@
+db.sqlite3
+espaciovirtual
+__pycache__git
+
+# Dependencias y módulos generados
+/node_modules
+/.pnp
+.pnp.js
+
+# Archivos de compilación
+/build
+/dist
+
+# Archivos de entorno
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de caché y registros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Otros archivos específicos de IDE/editor
+/.vscode
+/.idea
+
+# Archivos temporales
+*.log
+*.swp

@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "nombre": "Proveedor 1",
+        "email": "proveedor1@example.com",
+        "telefono": "3747306549",
+        "direccion": "Direcci\u00f3n 1",
+        "sitio_web": "https://www.ejemplo.com/pagina1",
+        "calificacion": 5,
+        "codigo": "PVTLVKP"
+    },
+    {
+        "id": 2,
+        "nombre": "Proveedor 2",
+        "email": "proveedor2@example.com",
+        "telefono": "3439919386",
+        "direccion": "Direcci\u00f3n 2",
+        "sitio_web": "https://www.ejemplo.com/pagina2",
+        "calificacion": 1,
+        "codigo": "PVVTDIO"
+    },
+    {
+        "id": 3,
+        "nombre": "Proveedor 3",
+        "email": "proveedor3@example.com",
+        "telefono": "3592929394",
+        "direccion": "Direcci\u00f3n 3",
+        "sitio_web": "https://www.ejemplo.com/pagina3",
+        "calificacion": 5,
+        "codigo": "PVFMDAJ"
+    },
+    {
+        "id": 4,
+        "nombre": "Proveedor 4",
+        "email": "proveedor4@example.com",
+        "telefono": "3106008505",
+        "direccion": "Direcci\u00f3n 4",
+        "sitio_web": "https://www.ejemplo.com/pagina4",
+        "calificacion": 1,
+        "codigo": "PVUTVHD"
+    },
+    {
+        "id": 5,
+        "nombre": "Proveedor 5",
+        "email": "proveedor5@example.com",
+        "telefono": "3876174184",
+        "direccion": "Direcci\u00f3n 5",
+        "sitio_web": "https://www.ejemplo.com/pagina5",
+        "calificacion": 3,
+        "codigo": "PVGWTCI"
+    },
+    {
+        "id": 6,
+        "nombre": "Proveedor 6",
+        "email": "proveedor6@example.com",
+        "telefono": "3353982969",
+        "direccion": "Direcci\u00f3n 6",
+        "sitio_web": "https://www.ejemplo.com/pagina6",
+        "calificacion": 4,
+        "codigo": "PVIGKLU"
+    },
+    {
+        "id": 7,
+        "nombre": "Proveedor 7",
+        "email": "proveedor7@example.com",
+        "telefono": "3247483998",
+        "direccion": "Direcci\u00f3n 7",
+        "sitio_web": "https://www.ejemplo.com/pagina7",
+        "calificacion": 1,
+        "codigo": "PVRTPHD"
+    },
+    {
+        "id": 8,
+        "nombre": "Proveedor 8",
+        "email": "proveedor8@example.com",
+        "telefono": "3560422087",
+        "direccion": "Direcci\u00f3n 8",
+        "sitio_web": "https://www.ejemplo.com/pagina8",
+        "calificacion": 5,
+        "codigo": "PVLYGJZ"
+    },
+    {
+        "id": 9,
+        "nombre": "Proveedor 9",
+        "email": "proveedor9@example.com",
+        "telefono": "3450645868",
+        "direccion": "Direcci\u00f3n 9",
+        "sitio_web": "https://www.ejemplo.com/pagina9",
+        "calificacion": 3,
+        "codigo": "PVFIIZM"
+    },
+    {
+        "id": 10,
+        "nombre": "Proveedor 10",
+        "email": "proveedor10@example.com",
+        "telefono": "3022968753",
+        "direccion": "Direcci\u00f3n 10",
+        "sitio_web": "https://www.ejemplo.com/pagina10",
+        "calificacion": 3,
+        "codigo": "PVYLHYQ"
+    },
+    {
+        "id": 11,
+        "nombre": "Proveedor 11",
+        "email": "proveedor11@example.com",
+        "telefono": "3430635421",
+        "direccion": "Direcci\u00f3n 11",
+        "sitio_web": "https://www.ejemplo.com/pagina11",
+        "calificacion": 4,
+        "codigo": "PVTSZKD"
+    },
+    {
+        "id": 12,
+        "nombre": "Proveedor 12",
+        "email": "proveedor12@example.com",
+        "telefono": "3289917929",
+        "direccion": "Direcci\u00f3n 12",
+        "sitio_web": "https://www.ejemplo.com/pagina12",
+        "calificacion": 2,
+        "codigo": "PVCRGAK"
+    },
+    {
+        "id": 13,
+        "nombre": "Proveedor 13",
+        "email": "proveedor13@example.com",
+        "telefono": "3150795199",
+        "direccion": "Direcci\u00f3n 13",
+        "sitio_web": "https://www.ejemplo.com/pagina13",
+        "calificacion": 2,
+        "codigo": "PVGSYFL"
+    },
+    {
+        "id": 14,
+        "nombre": "Proveedor 14",
+        "email": "proveedor14@example.com",
+        "telefono": "3841430571",
+        "direccion": "Direcci\u00f3n 14",
+        "sitio_web": "https://www.ejemplo.com/pagina14",
+        "calificacion": 1,
+        "codigo": "PVJHOPG"
+    },
+    {
+        "id": 15,
+        "nombre": "Proveedor 15",
+        "email": "proveedor15@example.com",
+        "telefono": "3055313031",
+        "direccion": "Direcci\u00f3n 15",
+        "sitio_web": "https://www.ejemplo.com/pagina15",
+        "calificacion": 5,
+        "codigo": "PVLDZYF"
+    },
+    {
+        "id": 16,
+        "nombre": "Proveedor 16",
+        "email": "proveedor16@example.com",
+        "telefono": "3327321419",
+        "direccion": "Direcci\u00f3n 16",
+        "sitio_web": "https://www.ejemplo.com/pagina16",
+        "calificacion": 3,
+        "codigo": "PVDIGTV"
+    },
+    {
+        "id": 17,
+        "nombre": "Proveedor 17",
+        "email": "proveedor17@example.com",
+        "telefono": "3095803907",
+        "direccion": "Direcci\u00f3n 17",
+        "sitio_web": "https://www.ejemplo.com/pagina17",
+        "calificacion": 2,
+        "codigo": "PVLSRNN"
+    },
+    {
+        "id": 18,
+        "nombre": "Proveedor 18",
+        "email": "proveedor18@example.com",
+        "telefono": "3846375487",
+        "direccion": "Direcci\u00f3n 18",
+        "sitio_web": "https://www.ejemplo.com/pagina18",
+        "calificacion": 5,
+        "codigo": "PVBVBNS"
+    },
+    {
+        "id": 19,
+        "nombre": "Proveedor 19",
+        "email": "proveedor19@example.com",
+        "telefono": "3007420311",
+        "direccion": "Direcci\u00f3n 19",
+        "sitio_web": "https://www.ejemplo.com/pagina19",
+        "calificacion": 2,
+        "codigo": "PVGHUGA"
+    },
+    {
+        "id": 20,
+        "nombre": "Proveedor 20",
+        "email": "proveedor20@example.com",
+        "telefono": "3433676320",
+        "direccion": "Direcci\u00f3n 20",
+        "sitio_web": "https://www.ejemplo.com/pagina20",
+        "calificacion": 4,
+        "codigo": "PVPZPNF"
+    }
+]

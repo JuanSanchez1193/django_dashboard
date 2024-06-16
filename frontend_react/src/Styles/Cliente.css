@@ -1,0 +1,86 @@
+.Cliente {
+  margin: 20px;
+  color: black; /* Ensure all text within .Cliente defaults to black */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  color: black; /* Set header text color to black */
+}
+
+.codigo {
+  font-size: 24px;
+  font-weight: bold;
+  color: black; /* Set codigo text color to black */
+}
+
+.separador {
+  height: 2px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.cliente-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  color: black; /* Ensure text within cliente-container is black */
+}
+
+.cliente-nombre {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: black; /* Set cliente-nombre text color to black */
+}
+
+.cliente-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: black; /* Set text color to black for .cliente-info */
+}
+
+.info-item {
+  flex: 1 1 200px;
+  color: black; /* Set text color to black for .info-item */
+  margin-bottom: 10px;
+}
+.div.info-item{
+  color: black;
+}
+.strong{
+  color: black;
+}
+
+.data-item {
+  color: black; /* Set data-item text color to black */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: black; /* Ensure table text is black */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: black; /* Set text color to black for table cells */
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: black; /* Set text color to black for table headers */
+}
+
+
+.item-info{
+  color:black;
+}

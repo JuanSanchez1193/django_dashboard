@@ -1,0 +1,118 @@
+.Proveedores-Page {
+  padding: 20px;
+}
+
+.titulo-fecha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.titulo-fecha h1 {
+  margin: 0;
+}
+
+.separador {
+  height: 2px;
+  background-color: #666; /* Color más oscuro */
+  width: 100%;
+}
+
+.datos-proveedores {
+  margin-top: 20px;
+  max-height: 500px; /* Ajusta según sea necesario */
+  overflow-y: auto;
+  width: 70%; /* Nuevo estilo para limitar el ancho al 70% */
+  margin: 0 auto; /* Para centrar la tabla horizontalmente */
+  position: relative;
+}
+
+.proveedores-header, .proveedor-fila, .totales-fila {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.proveedores-header {
+  font-weight: bold;
+  background-color: #333; /* Color de fondo oscuro */
+  color: white; /* Texto en blanco */
+}
+
+.proveedor-fila {
+  background-color: #f2f2f2; /* Fondo claro */
+  color: #333; /* Texto oscuro */
+}
+
+.proveedor-fila div, .totales-fila div {
+  width: 16.6%; /* Ajusta el ancho según sea necesario */
+  text-align: center;
+}
+
+.proveedor-fila:nth-child(odd) {
+  background-color: #e6e6e6; /* Alternar fondo claro */
+}
+
+.proveedor-fila:nth-child(even) {
+  background-color: #ffffff; /* Fondo blanco */
+}
+
+.totales-fila {
+  position: sticky;
+  bottom: 0;
+  background-color: #fff; /* Fondo blanco para la fila de totales */
+  border-top: 2px solid #666; /* Borde superior para destacar */
+  z-index: 1; /* Asegurar que la fila esté sobre las demás */
+  color: black;
+}
+
+.toggle-button {
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Texto en blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambiar el cursor al pasar */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.toggle-button:hover {
+  background-color: #0056b3; /* Color de fondo azul oscuro al pasar */
+}
+
+.contenedor-tabla {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtro-opciones {
+  width: 25%; /* Ajusta según sea necesario */
+}
+
+.grafico-button {
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.grafico-button:hover {
+  background-color: #0056b3;
+}
+
+.grafico-pastel-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.grafico-pastel {
+  width: 800px;  /* Ajusta el tamaño del gráfico aquí */
+  height: 1000px; /* Ajusta el tamaño del gráfico aquí */
+}

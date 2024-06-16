@@ -1,0 +1,13 @@
+.cabecera-objetos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    padding: 10px;
+  }
+  
+  .cabecera-objetos h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }

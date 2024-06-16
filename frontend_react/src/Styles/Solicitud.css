@@ -1,0 +1,102 @@
+/* Estilos generales */
+.Solicitud {
+  margin: 20px;
+  color: #fff; /* Texto fuera del recuadro blanco en color blanco */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.codigo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.separador {
+  height: 2px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.solicitud-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  flex: 1 1 20px;
+  color: #fff; /* Texto fuera del recuadro blanco en color blanco */
+}
+
+.data-item {
+  color: #000000;
+}
+
+/* Estilos para las pestañas */
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+.tabs button.active {
+  background-color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/* Estilos para el contenido de las pestañas */
+.tab-content {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #000; /* Texto dentro del recuadro blanco en color negro */
+}
+
+.tab-content .info-item {
+  color: #000; /* Asegurarse de que los textos dentro de .tab-content sean negros */
+}
+
+.details, .pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details .section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Estilos para los detalles del producto */
+.product-details {
+  margin-top: 20px;
+  color: #fff; /* Texto fuera del recuadro blanco en color blanco */
+}
+
+.product-details .product-name, .product-details .product-description {
+  color: #fffcfc; /* Texto dentro del recuadro blanco en color negro */
+}
+
+.data-item-content{
+  color:#ccc
+}

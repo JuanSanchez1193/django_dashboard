@@ -1,0 +1,1002 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cliente 1",
+        "fecha_nacimiento": "2001-11-06",
+        "direccion": "Direcci\u00f3n 1",
+        "email": "cliente1@example.com",
+        "telefono": "3610717103",
+        "numero_identificacion": "ID-1",
+        "codigo": "CRMBAX"
+    },
+    {
+        "id": 2,
+        "nombre": "Cliente 2",
+        "fecha_nacimiento": "1982-08-10",
+        "direccion": "Direcci\u00f3n 2",
+        "email": "cliente2@example.com",
+        "telefono": "3428327747",
+        "numero_identificacion": "ID-2",
+        "codigo": "CSQEFK"
+    },
+    {
+        "id": 3,
+        "nombre": "Cliente 3",
+        "fecha_nacimiento": "1978-08-03",
+        "direccion": "Direcci\u00f3n 3",
+        "email": "cliente3@example.com",
+        "telefono": "3694059263",
+        "numero_identificacion": "ID-3",
+        "codigo": "CZJFXH"
+    },
+    {
+        "id": 4,
+        "nombre": "Cliente 4",
+        "fecha_nacimiento": "2000-04-27",
+        "direccion": "Direcci\u00f3n 4",
+        "email": "cliente4@example.com",
+        "telefono": "3757956455",
+        "numero_identificacion": "ID-4",
+        "codigo": "CVKMQD"
+    },
+    {
+        "id": 5,
+        "nombre": "Cliente 5",
+        "fecha_nacimiento": "1968-04-02",
+        "direccion": "Direcci\u00f3n 5",
+        "email": "cliente5@example.com",
+        "telefono": "3493368813",
+        "numero_identificacion": "ID-5",
+        "codigo": "CGDRXP"
+    },
+    {
+        "id": 6,
+        "nombre": "Cliente 6",
+        "fecha_nacimiento": "1977-07-12",
+        "direccion": "Direcci\u00f3n 6",
+        "email": "cliente6@example.com",
+        "telefono": "3915156960",
+        "numero_identificacion": "ID-6",
+        "codigo": "CIXUAU"
+    },
+    {
+        "id": 7,
+        "nombre": "Cliente 7",
+        "fecha_nacimiento": "1993-04-01",
+        "direccion": "Direcci\u00f3n 7",
+        "email": "cliente7@example.com",
+        "telefono": "3600261220",
+        "numero_identificacion": "ID-7",
+        "codigo": "CTTNEP"
+    },
+    {
+        "id": 8,
+        "nombre": "Cliente 8",
+        "fecha_nacimiento": "1992-12-15",
+        "direccion": "Direcci\u00f3n 8",
+        "email": "cliente8@example.com",
+        "telefono": "3872026716",
+        "numero_identificacion": "ID-8",
+        "codigo": "CBLJOZ"
+    },
+    {
+        "id": 9,
+        "nombre": "Cliente 9",
+        "fecha_nacimiento": "1988-09-02",
+        "direccion": "Direcci\u00f3n 9",
+        "email": "cliente9@example.com",
+        "telefono": "3803548001",
+        "numero_identificacion": "ID-9",
+        "codigo": "CCQQYL"
+    },
+    {
+        "id": 10,
+        "nombre": "Cliente 10",
+        "fecha_nacimiento": "1978-12-06",
+        "direccion": "Direcci\u00f3n 10",
+        "email": "cliente10@example.com",
+        "telefono": "3157066214",
+        "numero_identificacion": "ID-10",
+        "codigo": "CAFJSI"
+    },
+    {
+        "id": 11,
+        "nombre": "Cliente 11",
+        "fecha_nacimiento": "2001-02-25",
+        "direccion": "Direcci\u00f3n 11",
+        "email": "cliente11@example.com",
+        "telefono": "3744849157",
+        "numero_identificacion": "ID-11",
+        "codigo": "CHSWZK"
+    },
+    {
+        "id": 12,
+        "nombre": "Cliente 12",
+        "fecha_nacimiento": "1987-12-07",
+        "direccion": "Direcci\u00f3n 12",
+        "email": "cliente12@example.com",
+        "telefono": "3453757627",
+        "numero_identificacion": "ID-12",
+        "codigo": "CUNXYU"
+    },
+    {
+        "id": 13,
+        "nombre": "Cliente 13",
+        "fecha_nacimiento": "1981-03-28",
+        "direccion": "Direcci\u00f3n 13",
+        "email": "cliente13@example.com",
+        "telefono": "3008131025",
+        "numero_identificacion": "ID-13",
+        "codigo": "CIZQLZ"
+    },
+    {
+        "id": 14,
+        "nombre": "Cliente 14",
+        "fecha_nacimiento": "1969-04-06",
+        "direccion": "Direcci\u00f3n 14",
+        "email": "cliente14@example.com",
+        "telefono": "3451568738",
+        "numero_identificacion": "ID-14",
+        "codigo": "CGYTMI"
+    },
+    {
+        "id": 15,
+        "nombre": "Cliente 15",
+        "fecha_nacimiento": "1998-06-23",
+        "direccion": "Direcci\u00f3n 15",
+        "email": "cliente15@example.com",
+        "telefono": "3347901652",
+        "numero_identificacion": "ID-15",
+        "codigo": "CWJXSM"
+    },
+    {
+        "id": 16,
+        "nombre": "Cliente 16",
+        "fecha_nacimiento": "1982-07-29",
+        "direccion": "Direcci\u00f3n 16",
+        "email": "cliente16@example.com",
+        "telefono": "3675430881",
+        "numero_identificacion": "ID-16",
+        "codigo": "CFMFZU"
+    },
+    {
+        "id": 17,
+        "nombre": "Cliente 17",
+        "fecha_nacimiento": "1996-05-13",
+        "direccion": "Direcci\u00f3n 17",
+        "email": "cliente17@example.com",
+        "telefono": "3095509456",
+        "numero_identificacion": "ID-17",
+        "codigo": "CDJXTM"
+    },
+    {
+        "id": 18,
+        "nombre": "Cliente 18",
+        "fecha_nacimiento": "1979-12-15",
+        "direccion": "Direcci\u00f3n 18",
+        "email": "cliente18@example.com",
+        "telefono": "3861388793",
+        "numero_identificacion": "ID-18",
+        "codigo": "CATIFS"
+    },
+    {
+        "id": 19,
+        "nombre": "Cliente 19",
+        "fecha_nacimiento": "1983-03-19",
+        "direccion": "Direcci\u00f3n 19",
+        "email": "cliente19@example.com",
+        "telefono": "3832854874",
+        "numero_identificacion": "ID-19",
+        "codigo": "CAZMCJ"
+    },
+    {
+        "id": 20,
+        "nombre": "Cliente 20",
+        "fecha_nacimiento": "1977-11-29",
+        "direccion": "Direcci\u00f3n 20",
+        "email": "cliente20@example.com",
+        "telefono": "3520635980",
+        "numero_identificacion": "ID-20",
+        "codigo": "CMOIQL"
+    },
+    {
+        "id": 21,
+        "nombre": "Cliente 21",
+        "fecha_nacimiento": "2002-04-02",
+        "direccion": "Direcci\u00f3n 21",
+        "email": "cliente21@example.com",
+        "telefono": "3890265169",
+        "numero_identificacion": "ID-21",
+        "codigo": "CRNNLE"
+    },
+    {
+        "id": 22,
+        "nombre": "Cliente 22",
+        "fecha_nacimiento": "2003-08-02",
+        "direccion": "Direcci\u00f3n 22",
+        "email": "cliente22@example.com",
+        "telefono": "3984682307",
+        "numero_identificacion": "ID-22",
+        "codigo": "CUUSTN"
+    },
+    {
+        "id": 23,
+        "nombre": "Cliente 23",
+        "fecha_nacimiento": "1963-10-09",
+        "direccion": "Direcci\u00f3n 23",
+        "email": "cliente23@example.com",
+        "telefono": "3257803644",
+        "numero_identificacion": "ID-23",
+        "codigo": "CRRFIR"
+    },
+    {
+        "id": 24,
+        "nombre": "Cliente 24",
+        "fecha_nacimiento": "1997-05-10",
+        "direccion": "Direcci\u00f3n 24",
+        "email": "cliente24@example.com",
+        "telefono": "3443064602",
+        "numero_identificacion": "ID-24",
+        "codigo": "CRKRPM"
+    },
+    {
+        "id": 25,
+        "nombre": "Cliente 25",
+        "fecha_nacimiento": "1992-06-09",
+        "direccion": "Direcci\u00f3n 25",
+        "email": "cliente25@example.com",
+        "telefono": "3625693660",
+        "numero_identificacion": "ID-25",
+        "codigo": "CBHCPC"
+    },
+    {
+        "id": 26,
+        "nombre": "Cliente 26",
+        "fecha_nacimiento": "1983-04-20",
+        "direccion": "Direcci\u00f3n 26",
+        "email": "cliente26@example.com",
+        "telefono": "3199922313",
+        "numero_identificacion": "ID-26",
+        "codigo": "CXEFER"
+    },
+    {
+        "id": 27,
+        "nombre": "Cliente 27",
+        "fecha_nacimiento": "1978-05-04",
+        "direccion": "Direcci\u00f3n 27",
+        "email": "cliente27@example.com",
+        "telefono": "3118207095",
+        "numero_identificacion": "ID-27",
+        "codigo": "CIVHNM"
+    },
+    {
+        "id": 28,
+        "nombre": "Cliente 28",
+        "fecha_nacimiento": "1974-08-04",
+        "direccion": "Direcci\u00f3n 28",
+        "email": "cliente28@example.com",
+        "telefono": "3118542880",
+        "numero_identificacion": "ID-28",
+        "codigo": "CCZXXD"
+    },
+    {
+        "id": 29,
+        "nombre": "Cliente 29",
+        "fecha_nacimiento": "1980-06-12",
+        "direccion": "Direcci\u00f3n 29",
+        "email": "cliente29@example.com",
+        "telefono": "3847779052",
+        "numero_identificacion": "ID-29",
+        "codigo": "CWGULD"
+    },
+    {
+        "id": 30,
+        "nombre": "Cliente 30",
+        "fecha_nacimiento": "1980-08-26",
+        "direccion": "Direcci\u00f3n 30",
+        "email": "cliente30@example.com",
+        "telefono": "3302058308",
+        "numero_identificacion": "ID-30",
+        "codigo": "CMUSHL"
+    },
+    {
+        "id": 31,
+        "nombre": "Cliente 31",
+        "fecha_nacimiento": "1982-04-30",
+        "direccion": "Direcci\u00f3n 31",
+        "email": "cliente31@example.com",
+        "telefono": "3959164013",
+        "numero_identificacion": "ID-31",
+        "codigo": "CLXEPR"
+    },
+    {
+        "id": 32,
+        "nombre": "Cliente 32",
+        "fecha_nacimiento": "1993-12-17",
+        "direccion": "Direcci\u00f3n 32",
+        "email": "cliente32@example.com",
+        "telefono": "3257615117",
+        "numero_identificacion": "ID-32",
+        "codigo": "CMLMBJ"
+    },
+    {
+        "id": 33,
+        "nombre": "Cliente 33",
+        "fecha_nacimiento": "1980-05-08",
+        "direccion": "Direcci\u00f3n 33",
+        "email": "cliente33@example.com",
+        "telefono": "3798752640",
+        "numero_identificacion": "ID-33",
+        "codigo": "CMWMVF"
+    },
+    {
+        "id": 34,
+        "nombre": "Cliente 34",
+        "fecha_nacimiento": "1982-10-22",
+        "direccion": "Direcci\u00f3n 34",
+        "email": "cliente34@example.com",
+        "telefono": "3302052844",
+        "numero_identificacion": "ID-34",
+        "codigo": "CAIKYB"
+    },
+    {
+        "id": 35,
+        "nombre": "Cliente 35",
+        "fecha_nacimiento": "1967-02-15",
+        "direccion": "Direcci\u00f3n 35",
+        "email": "cliente35@example.com",
+        "telefono": "3176253374",
+        "numero_identificacion": "ID-35",
+        "codigo": "CBDPCR"
+    },
+    {
+        "id": 36,
+        "nombre": "Cliente 36",
+        "fecha_nacimiento": "1962-12-19",
+        "direccion": "Direcci\u00f3n 36",
+        "email": "cliente36@example.com",
+        "telefono": "3573045384",
+        "numero_identificacion": "ID-36",
+        "codigo": "CTVUPL"
+    },
+    {
+        "id": 37,
+        "nombre": "Cliente 37",
+        "fecha_nacimiento": "1991-07-13",
+        "direccion": "Direcci\u00f3n 37",
+        "email": "cliente37@example.com",
+        "telefono": "3064504230",
+        "numero_identificacion": "ID-37",
+        "codigo": "CINGUB"
+    },
+    {
+        "id": 38,
+        "nombre": "Cliente 38",
+        "fecha_nacimiento": "1982-04-30",
+        "direccion": "Direcci\u00f3n 38",
+        "email": "cliente38@example.com",
+        "telefono": "3841695792",
+        "numero_identificacion": "ID-38",
+        "codigo": "CPNFHE"
+    },
+    {
+        "id": 39,
+        "nombre": "Cliente 39",
+        "fecha_nacimiento": "2002-04-19",
+        "direccion": "Direcci\u00f3n 39",
+        "email": "cliente39@example.com",
+        "telefono": "3717368194",
+        "numero_identificacion": "ID-39",
+        "codigo": "CAKXIX"
+    },
+    {
+        "id": 40,
+        "nombre": "Cliente 40",
+        "fecha_nacimiento": "2001-03-09",
+        "direccion": "Direcci\u00f3n 40",
+        "email": "cliente40@example.com",
+        "telefono": "3943435750",
+        "numero_identificacion": "ID-40",
+        "codigo": "CRJASY"
+    },
+    {
+        "id": 41,
+        "nombre": "Cliente 41",
+        "fecha_nacimiento": "1977-09-16",
+        "direccion": "Direcci\u00f3n 41",
+        "email": "cliente41@example.com",
+        "telefono": "3879011594",
+        "numero_identificacion": "ID-41",
+        "codigo": "CCHKCQ"
+    },
+    {
+        "id": 42,
+        "nombre": "Cliente 42",
+        "fecha_nacimiento": "1963-06-05",
+        "direccion": "Direcci\u00f3n 42",
+        "email": "cliente42@example.com",
+        "telefono": "3997094435",
+        "numero_identificacion": "ID-42",
+        "codigo": "CKYDIX"
+    },
+    {
+        "id": 43,
+        "nombre": "Cliente 43",
+        "fecha_nacimiento": "1975-02-05",
+        "direccion": "Direcci\u00f3n 43",
+        "email": "cliente43@example.com",
+        "telefono": "3807646533",
+        "numero_identificacion": "ID-43",
+        "codigo": "CJMADM"
+    },
+    {
+        "id": 44,
+        "nombre": "Cliente 44",
+        "fecha_nacimiento": "1996-08-27",
+        "direccion": "Direcci\u00f3n 44",
+        "email": "cliente44@example.com",
+        "telefono": "3000704070",
+        "numero_identificacion": "ID-44",
+        "codigo": "CRUCNZ"
+    },
+    {
+        "id": 45,
+        "nombre": "Cliente 45",
+        "fecha_nacimiento": "2003-02-23",
+        "direccion": "Direcci\u00f3n 45",
+        "email": "cliente45@example.com",
+        "telefono": "3799924225",
+        "numero_identificacion": "ID-45",
+        "codigo": "CQSVYT"
+    },
+    {
+        "id": 46,
+        "nombre": "Cliente 46",
+        "fecha_nacimiento": "1962-09-12",
+        "direccion": "Direcci\u00f3n 46",
+        "email": "cliente46@example.com",
+        "telefono": "3325841745",
+        "numero_identificacion": "ID-46",
+        "codigo": "CNUMDN"
+    },
+    {
+        "id": 47,
+        "nombre": "Cliente 47",
+        "fecha_nacimiento": "1986-12-19",
+        "direccion": "Direcci\u00f3n 47",
+        "email": "cliente47@example.com",
+        "telefono": "3693526665",
+        "numero_identificacion": "ID-47",
+        "codigo": "COXGWJ"
+    },
+    {
+        "id": 48,
+        "nombre": "Cliente 48",
+        "fecha_nacimiento": "2000-10-06",
+        "direccion": "Direcci\u00f3n 48",
+        "email": "cliente48@example.com",
+        "telefono": "3545089808",
+        "numero_identificacion": "ID-48",
+        "codigo": "CWPHTL"
+    },
+    {
+        "id": 49,
+        "nombre": "Cliente 49",
+        "fecha_nacimiento": "1983-04-05",
+        "direccion": "Direcci\u00f3n 49",
+        "email": "cliente49@example.com",
+        "telefono": "3895261895",
+        "numero_identificacion": "ID-49",
+        "codigo": "CNWGZD"
+    },
+    {
+        "id": 50,
+        "nombre": "Cliente 50",
+        "fecha_nacimiento": "1971-03-04",
+        "direccion": "Direcci\u00f3n 50",
+        "email": "cliente50@example.com",
+        "telefono": "3899516118",
+        "numero_identificacion": "ID-50",
+        "codigo": "CKGXUU"
+    },
+    {
+        "id": 51,
+        "nombre": "Cliente 51",
+        "fecha_nacimiento": "1998-08-26",
+        "direccion": "Direcci\u00f3n 51",
+        "email": "cliente51@example.com",
+        "telefono": "3648536121",
+        "numero_identificacion": "ID-51",
+        "codigo": "CPOFRT"
+    },
+    {
+        "id": 52,
+        "nombre": "Cliente 52",
+        "fecha_nacimiento": "1962-03-26",
+        "direccion": "Direcci\u00f3n 52",
+        "email": "cliente52@example.com",
+        "telefono": "3012799214",
+        "numero_identificacion": "ID-52",
+        "codigo": "CKKAAF"
+    },
+    {
+        "id": 53,
+        "nombre": "Cliente 53",
+        "fecha_nacimiento": "1985-08-17",
+        "direccion": "Direcci\u00f3n 53",
+        "email": "cliente53@example.com",
+        "telefono": "3976695628",
+        "numero_identificacion": "ID-53",
+        "codigo": "CNFOCC"
+    },
+    {
+        "id": 54,
+        "nombre": "Cliente 54",
+        "fecha_nacimiento": "1981-12-06",
+        "direccion": "Direcci\u00f3n 54",
+        "email": "cliente54@example.com",
+        "telefono": "3084841017",
+        "numero_identificacion": "ID-54",
+        "codigo": "CGRDHH"
+    },
+    {
+        "id": 55,
+        "nombre": "Cliente 55",
+        "fecha_nacimiento": "1982-01-26",
+        "direccion": "Direcci\u00f3n 55",
+        "email": "cliente55@example.com",
+        "telefono": "3350861332",
+        "numero_identificacion": "ID-55",
+        "codigo": "CLDNGT"
+    },
+    {
+        "id": 56,
+        "nombre": "Cliente 56",
+        "fecha_nacimiento": "1979-07-18",
+        "direccion": "Direcci\u00f3n 56",
+        "email": "cliente56@example.com",
+        "telefono": "3936447691",
+        "numero_identificacion": "ID-56",
+        "codigo": "CTWBGQ"
+    },
+    {
+        "id": 57,
+        "nombre": "Cliente 57",
+        "fecha_nacimiento": "1975-07-14",
+        "direccion": "Direcci\u00f3n 57",
+        "email": "cliente57@example.com",
+        "telefono": "3272651361",
+        "numero_identificacion": "ID-57",
+        "codigo": "COOIEY"
+    },
+    {
+        "id": 58,
+        "nombre": "Cliente 58",
+        "fecha_nacimiento": "1977-09-18",
+        "direccion": "Direcci\u00f3n 58",
+        "email": "cliente58@example.com",
+        "telefono": "3425151019",
+        "numero_identificacion": "ID-58",
+        "codigo": "CGSDAA"
+    },
+    {
+        "id": 59,
+        "nombre": "Cliente 59",
+        "fecha_nacimiento": "1981-01-19",
+        "direccion": "Direcci\u00f3n 59",
+        "email": "cliente59@example.com",
+        "telefono": "3304943874",
+        "numero_identificacion": "ID-59",
+        "codigo": "CJUXJO"
+    },
+    {
+        "id": 60,
+        "nombre": "Cliente 60",
+        "fecha_nacimiento": "1960-01-28",
+        "direccion": "Direcci\u00f3n 60",
+        "email": "cliente60@example.com",
+        "telefono": "3056709541",
+        "numero_identificacion": "ID-60",
+        "codigo": "CJLYZF"
+    },
+    {
+        "id": 61,
+        "nombre": "Cliente 61",
+        "fecha_nacimiento": "1967-02-12",
+        "direccion": "Direcci\u00f3n 61",
+        "email": "cliente61@example.com",
+        "telefono": "3678019557",
+        "numero_identificacion": "ID-61",
+        "codigo": "CSKZTP"
+    },
+    {
+        "id": 62,
+        "nombre": "Cliente 62",
+        "fecha_nacimiento": "1981-06-23",
+        "direccion": "Direcci\u00f3n 62",
+        "email": "cliente62@example.com",
+        "telefono": "3149906361",
+        "numero_identificacion": "ID-62",
+        "codigo": "COKBES"
+    },
+    {
+        "id": 63,
+        "nombre": "Cliente 63",
+        "fecha_nacimiento": "1967-11-24",
+        "direccion": "Direcci\u00f3n 63",
+        "email": "cliente63@example.com",
+        "telefono": "3955088277",
+        "numero_identificacion": "ID-63",
+        "codigo": "CFHISU"
+    },
+    {
+        "id": 64,
+        "nombre": "Cliente 64",
+        "fecha_nacimiento": "1993-08-30",
+        "direccion": "Direcci\u00f3n 64",
+        "email": "cliente64@example.com",
+        "telefono": "3329165801",
+        "numero_identificacion": "ID-64",
+        "codigo": "CQOVIA"
+    },
+    {
+        "id": 65,
+        "nombre": "Cliente 65",
+        "fecha_nacimiento": "1992-11-05",
+        "direccion": "Direcci\u00f3n 65",
+        "email": "cliente65@example.com",
+        "telefono": "3484138341",
+        "numero_identificacion": "ID-65",
+        "codigo": "CAOJZU"
+    },
+    {
+        "id": 66,
+        "nombre": "Cliente 66",
+        "fecha_nacimiento": "1971-08-01",
+        "direccion": "Direcci\u00f3n 66",
+        "email": "cliente66@example.com",
+        "telefono": "3350023388",
+        "numero_identificacion": "ID-66",
+        "codigo": "CTENBL"
+    },
+    {
+        "id": 67,
+        "nombre": "Cliente 67",
+        "fecha_nacimiento": "1964-02-12",
+        "direccion": "Direcci\u00f3n 67",
+        "email": "cliente67@example.com",
+        "telefono": "3935163027",
+        "numero_identificacion": "ID-67",
+        "codigo": "CLPSUS"
+    },
+    {
+        "id": 68,
+        "nombre": "Cliente 68",
+        "fecha_nacimiento": "1964-07-04",
+        "direccion": "Direcci\u00f3n 68",
+        "email": "cliente68@example.com",
+        "telefono": "3010507085",
+        "numero_identificacion": "ID-68",
+        "codigo": "CGLNQZ"
+    },
+    {
+        "id": 69,
+        "nombre": "Cliente 69",
+        "fecha_nacimiento": "1993-09-09",
+        "direccion": "Direcci\u00f3n 69",
+        "email": "cliente69@example.com",
+        "telefono": "3181744176",
+        "numero_identificacion": "ID-69",
+        "codigo": "CPQDHN"
+    },
+    {
+        "id": 70,
+        "nombre": "Cliente 70",
+        "fecha_nacimiento": "1960-08-26",
+        "direccion": "Direcci\u00f3n 70",
+        "email": "cliente70@example.com",
+        "telefono": "3302888450",
+        "numero_identificacion": "ID-70",
+        "codigo": "COEDPU"
+    },
+    {
+        "id": 71,
+        "nombre": "Cliente 71",
+        "fecha_nacimiento": "1989-02-18",
+        "direccion": "Direcci\u00f3n 71",
+        "email": "cliente71@example.com",
+        "telefono": "3821150231",
+        "numero_identificacion": "ID-71",
+        "codigo": "CPPJEI"
+    },
+    {
+        "id": 72,
+        "nombre": "Cliente 72",
+        "fecha_nacimiento": "1978-04-08",
+        "direccion": "Direcci\u00f3n 72",
+        "email": "cliente72@example.com",
+        "telefono": "3209571181",
+        "numero_identificacion": "ID-72",
+        "codigo": "CHMUQL"
+    },
+    {
+        "id": 73,
+        "nombre": "Cliente 73",
+        "fecha_nacimiento": "2001-12-27",
+        "direccion": "Direcci\u00f3n 73",
+        "email": "cliente73@example.com",
+        "telefono": "3758676025",
+        "numero_identificacion": "ID-73",
+        "codigo": "CPSHIR"
+    },
+    {
+        "id": 74,
+        "nombre": "Cliente 74",
+        "fecha_nacimiento": "1984-04-10",
+        "direccion": "Direcci\u00f3n 74",
+        "email": "cliente74@example.com",
+        "telefono": "3192234186",
+        "numero_identificacion": "ID-74",
+        "codigo": "CHQKJI"
+    },
+    {
+        "id": 75,
+        "nombre": "Cliente 75",
+        "fecha_nacimiento": "1988-09-04",
+        "direccion": "Direcci\u00f3n 75",
+        "email": "cliente75@example.com",
+        "telefono": "3348494615",
+        "numero_identificacion": "ID-75",
+        "codigo": "CPMCRI"
+    },
+    {
+        "id": 76,
+        "nombre": "Cliente 76",
+        "fecha_nacimiento": "1994-03-14",
+        "direccion": "Direcci\u00f3n 76",
+        "email": "cliente76@example.com",
+        "telefono": "3624169509",
+        "numero_identificacion": "ID-76",
+        "codigo": "CROBXF"
+    },
+    {
+        "id": 77,
+        "nombre": "Cliente 77",
+        "fecha_nacimiento": "1990-02-16",
+        "direccion": "Direcci\u00f3n 77",
+        "email": "cliente77@example.com",
+        "telefono": "3276226164",
+        "numero_identificacion": "ID-77",
+        "codigo": "CYEZQU"
+    },
+    {
+        "id": 78,
+        "nombre": "Cliente 78",
+        "fecha_nacimiento": "1980-08-13",
+        "direccion": "Direcci\u00f3n 78",
+        "email": "cliente78@example.com",
+        "telefono": "3643489554",
+        "numero_identificacion": "ID-78",
+        "codigo": "CIJWGJ"
+    },
+    {
+        "id": 79,
+        "nombre": "Cliente 79",
+        "fecha_nacimiento": "1979-02-01",
+        "direccion": "Direcci\u00f3n 79",
+        "email": "cliente79@example.com",
+        "telefono": "3060699745",
+        "numero_identificacion": "ID-79",
+        "codigo": "CPGLSO"
+    },
+    {
+        "id": 80,
+        "nombre": "Cliente 80",
+        "fecha_nacimiento": "1980-09-29",
+        "direccion": "Direcci\u00f3n 80",
+        "email": "cliente80@example.com",
+        "telefono": "3137174989",
+        "numero_identificacion": "ID-80",
+        "codigo": "CVJUIA"
+    },
+    {
+        "id": 81,
+        "nombre": "Cliente 81",
+        "fecha_nacimiento": "1968-03-01",
+        "direccion": "Direcci\u00f3n 81",
+        "email": "cliente81@example.com",
+        "telefono": "3196009724",
+        "numero_identificacion": "ID-81",
+        "codigo": "CYBQPZ"
+    },
+    {
+        "id": 82,
+        "nombre": "Cliente 82",
+        "fecha_nacimiento": "1974-09-13",
+        "direccion": "Direcci\u00f3n 82",
+        "email": "cliente82@example.com",
+        "telefono": "3367565946",
+        "numero_identificacion": "ID-82",
+        "codigo": "CLSHMJ"
+    },
+    {
+        "id": 83,
+        "nombre": "Cliente 83",
+        "fecha_nacimiento": "2002-01-18",
+        "direccion": "Direcci\u00f3n 83",
+        "email": "cliente83@example.com",
+        "telefono": "3476418233",
+        "numero_identificacion": "ID-83",
+        "codigo": "CTLBCV"
+    },
+    {
+        "id": 84,
+        "nombre": "Cliente 84",
+        "fecha_nacimiento": "1964-03-12",
+        "direccion": "Direcci\u00f3n 84",
+        "email": "cliente84@example.com",
+        "telefono": "3828006246",
+        "numero_identificacion": "ID-84",
+        "codigo": "CHUKHB"
+    },
+    {
+        "id": 85,
+        "nombre": "Cliente 85",
+        "fecha_nacimiento": "1998-01-28",
+        "direccion": "Direcci\u00f3n 85",
+        "email": "cliente85@example.com",
+        "telefono": "3965470312",
+        "numero_identificacion": "ID-85",
+        "codigo": "CQYJOK"
+    },
+    {
+        "id": 86,
+        "nombre": "Cliente 86",
+        "fecha_nacimiento": "1995-12-27",
+        "direccion": "Direcci\u00f3n 86",
+        "email": "cliente86@example.com",
+        "telefono": "3932846052",
+        "numero_identificacion": "ID-86",
+        "codigo": "CUGUKI"
+    },
+    {
+        "id": 87,
+        "nombre": "Cliente 87",
+        "fecha_nacimiento": "1969-05-07",
+        "direccion": "Direcci\u00f3n 87",
+        "email": "cliente87@example.com",
+        "telefono": "3025570271",
+        "numero_identificacion": "ID-87",
+        "codigo": "CIRMBT"
+    },
+    {
+        "id": 88,
+        "nombre": "Cliente 88",
+        "fecha_nacimiento": "1996-01-15",
+        "direccion": "Direcci\u00f3n 88",
+        "email": "cliente88@example.com",
+        "telefono": "3150181181",
+        "numero_identificacion": "ID-88",
+        "codigo": "CUHIAJ"
+    },
+    {
+        "id": 89,
+        "nombre": "Cliente 89",
+        "fecha_nacimiento": "1986-01-04",
+        "direccion": "Direcci\u00f3n 89",
+        "email": "cliente89@example.com",
+        "telefono": "3996946775",
+        "numero_identificacion": "ID-89",
+        "codigo": "CUDMNE"
+    },
+    {
+        "id": 90,
+        "nombre": "Cliente 90",
+        "fecha_nacimiento": "1997-06-12",
+        "direccion": "Direcci\u00f3n 90",
+        "email": "cliente90@example.com",
+        "telefono": "3628198048",
+        "numero_identificacion": "ID-90",
+        "codigo": "CSVRSL"
+    },
+    {
+        "id": 91,
+        "nombre": "Cliente 91",
+        "fecha_nacimiento": "1965-05-24",
+        "direccion": "Direcci\u00f3n 91",
+        "email": "cliente91@example.com",
+        "telefono": "3736626210",
+        "numero_identificacion": "ID-91",
+        "codigo": "CQLMAG"
+    },
+    {
+        "id": 92,
+        "nombre": "Cliente 92",
+        "fecha_nacimiento": "1989-02-24",
+        "direccion": "Direcci\u00f3n 92",
+        "email": "cliente92@example.com",
+        "telefono": "3212062876",
+        "numero_identificacion": "ID-92",
+        "codigo": "CNGLUU"
+    },
+    {
+        "id": 93,
+        "nombre": "Cliente 93",
+        "fecha_nacimiento": "1991-08-31",
+        "direccion": "Direcci\u00f3n 93",
+        "email": "cliente93@example.com",
+        "telefono": "3804383725",
+        "numero_identificacion": "ID-93",
+        "codigo": "CDJOXB"
+    },
+    {
+        "id": 94,
+        "nombre": "Cliente 94",
+        "fecha_nacimiento": "1987-11-18",
+        "direccion": "Direcci\u00f3n 94",
+        "email": "cliente94@example.com",
+        "telefono": "3925437256",
+        "numero_identificacion": "ID-94",
+        "codigo": "CHNLBZ"
+    },
+    {
+        "id": 95,
+        "nombre": "Cliente 95",
+        "fecha_nacimiento": "2000-05-28",
+        "direccion": "Direcci\u00f3n 95",
+        "email": "cliente95@example.com",
+        "telefono": "3508409978",
+        "numero_identificacion": "ID-95",
+        "codigo": "CUQBYV"
+    },
+    {
+        "id": 96,
+        "nombre": "Cliente 96",
+        "fecha_nacimiento": "1992-12-22",
+        "direccion": "Direcci\u00f3n 96",
+        "email": "cliente96@example.com",
+        "telefono": "3028367444",
+        "numero_identificacion": "ID-96",
+        "codigo": "CXTJPK"
+    },
+    {
+        "id": 97,
+        "nombre": "Cliente 97",
+        "fecha_nacimiento": "1991-08-11",
+        "direccion": "Direcci\u00f3n 97",
+        "email": "cliente97@example.com",
+        "telefono": "3819297911",
+        "numero_identificacion": "ID-97",
+        "codigo": "CAIEQV"
+    },
+    {
+        "id": 98,
+        "nombre": "Cliente 98",
+        "fecha_nacimiento": "1982-06-30",
+        "direccion": "Direcci\u00f3n 98",
+        "email": "cliente98@example.com",
+        "telefono": "3935185487",
+        "numero_identificacion": "ID-98",
+        "codigo": "CFPJUX"
+    },
+    {
+        "id": 99,
+        "nombre": "Cliente 99",
+        "fecha_nacimiento": "1978-09-12",
+        "direccion": "Direcci\u00f3n 99",
+        "email": "cliente99@example.com",
+        "telefono": "3064652649",
+        "numero_identificacion": "ID-99",
+        "codigo": "CJNRNO"
+    },
+    {
+        "id": 100,
+        "nombre": "Cliente 100",
+        "fecha_nacimiento": "1961-03-25",
+        "direccion": "Direcci\u00f3n 100",
+        "email": "cliente100@example.com",
+        "telefono": "3560173448",
+        "numero_identificacion": "ID-100",
+        "codigo": "CAZIEA"
+    }
+]

@@ -40,7 +40,7 @@ class Proveedor(models.Model):
             MaxValueValidator(5)
         ]
     )
-    codigo = models.CharField(max_length=6, unique=True, blank=True)
+    codigo = models.CharField(max_length=7, unique=True, blank=True)
 
     def __str__(self):
         return self.nombre

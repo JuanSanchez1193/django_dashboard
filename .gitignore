@@ -1,6 +1,7 @@
 db.sqlite3
 espaciovirtual
 __pycache__git
+staticfiles
 
 # Dependencias y módulos generados
 /node_modules

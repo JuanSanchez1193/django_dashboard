@@ -1,12 +1,14 @@
+// ProductosPage.js
 import React, { useEffect, useState } from "react";
 import { CabeceraObjetos } from "../components/CabeceraObjetos";
 import FechaRango from "../components/FechaRango";
 import ProductoFila from "../components/ProductoFila";
-import axios from "axios";
 import "../Styles/ProductosPage.css";
 import FiltroOpciones from "../components/FiltroOpciones";
 import { Pie } from "react-chartjs-2";
 import 'chart.js/auto';
+
+import { fetchProductosConDatos } from "../api/ventas.api";
 
 export function ProductosPage() {
   const [productos, setProductos] = useState([]);
@@ -24,21 +26,17 @@ export function ProductosPage() {
   }, [startDate, endDate, includeWithoutRequests, selectedTopOption, selectedOtherOption, topX]);
 
   const fetchData = () => {
-    axios.get('http://localhost:8000/ventas/api/productos-con-datos/', {
-      params: {
-        start_date: startDate,
-        end_date: endDate,
-        include_without_requests: includeWithoutRequests,
-        top_option: selectedTopOption,
-        other_option: selectedOtherOption,
-        top_x: topX
-      }
-    })
-    .then(response => {
-      setProductos(response.data.productos);
-      setTotales(response.data.totales);
-    })
-    .catch(error => {
+    fetchProductosConDatos({
+      startDate,
+      endDate,
+      includeWithoutRequests,
+      topOption: selectedTopOption,
+      otherOption: selectedOtherOption,
+      topX
+    }).then(data => {
+      setProductos(data.productos);
+      setTotales(data.totales);
+    }).catch(error => {
       console.error("Hubo un error al obtener los productos: ", error);
     });
   };

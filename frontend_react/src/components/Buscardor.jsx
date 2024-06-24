@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import axios from 'axios';
+import { buscadorCodigos } from '../api/ventas.api';
 import '../Styles/Buscador.css';
 
 export function Buscador() {
@@ -12,7 +12,7 @@ export function Buscador() {
   };
 
   const handleSearch = () => {
-    axios.get(`http://localhost:8000/ventas/api/buscar/${searchTerm}/`)
+    buscadorCodigos(searchTerm)
       .then(response => {
         // Almacenar los datos en localStorage
         localStorage.setItem('searchData', JSON.stringify(response.data));

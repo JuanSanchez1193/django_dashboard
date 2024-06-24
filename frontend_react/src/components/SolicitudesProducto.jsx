@@ -1,28 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import { fetchSolicitudesProducto } from '../api/ventas.api';
 
 export function SolicitudesProducto({ productId, startDate, endDate }) {
   const [solicitudes, setSolicitudes] = useState([]);
 
   useEffect(() => {
+    const fetchSolicitudes = async () => {
+      try {
+        const data = await fetchSolicitudesProducto(productId, startDate, endDate);
+        setSolicitudes(data);
+      } catch (error) {
+        console.error('Error al obtener las solicitudes del producto:', error);
+      }
+    };
+
     fetchSolicitudes();
   }, [productId, startDate, endDate]);
-
-  const fetchSolicitudes = () => {
-    axios.get('http://localhost:8000/ventas/api/solicitudes-producto/', {
-      params: {
-        producto: productId,
-        start_date: startDate,
-        end_date: endDate,
-      }
-    })
-    .then(response => {
-      setSolicitudes(response.data);
-    })
-    .catch(error => {
-      console.error('Error al obtener las solicitudes del producto:', error);
-    });
-  };
 
   const getSolicitudEstado = (solicitud) => {
     const fechaCancelacion = solicitud.fecha_cancelacion ? new Date(solicitud.fecha_cancelacion) : null;

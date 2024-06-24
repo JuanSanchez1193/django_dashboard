@@ -1,12 +1,14 @@
+// ClientesPage.js
 import React, { useEffect, useState } from "react";
 import { CabeceraObjetos } from "../components/CabeceraObjetos";
 import FechaRango from "../components/FechaRango";
 import ClienteFila from "../components/ClienteFila";
-import axios from "axios";
 import "../Styles/ClientesPage.css";
 import FiltroOpciones from "../components/FiltroOpciones";
 import { Pie } from "react-chartjs-2";
 import 'chart.js/auto';
+
+import { fetchClientesConDatos } from "../api/ventas.api";
 
 export function ClientesPage() {
   const [clientes, setClientes] = useState([]);
@@ -24,21 +26,17 @@ export function ClientesPage() {
   }, [startDate, endDate, includeWithoutRequests, selectedTopOption, selectedOtherOption, topX]);
 
   const fetchData = () => {
-    axios.get('http://localhost:8000/ventas/api/clientes-con-datos/', {
-      params: {
-        start_date: startDate,
-        end_date: endDate,
-        include_without_requests: includeWithoutRequests,
-        top_option: selectedTopOption,
-        other_option: selectedOtherOption,
-        top_x: topX
-      }
-    })
-    .then(response => {
-      setClientes(response.data.clientes);
-      setTotales(response.data.totales);
-    })
-    .catch(error => {
+    fetchClientesConDatos({
+      startDate,
+      endDate,
+      includeWithoutRequests,
+      topOption: selectedTopOption,
+      otherOption: selectedOtherOption,
+      topX
+    }).then(data => {
+      setClientes(data.clientes);
+      setTotales(data.totales);
+    }).catch(error => {
       console.error("Hubo un error al obtener los clientes: ", error);
     });
   };

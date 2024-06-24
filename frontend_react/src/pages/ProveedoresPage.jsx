@@ -1,12 +1,14 @@
+// ProveedoresPage.js
 import React, { useEffect, useState } from "react";
 import { CabeceraObjetos } from "../components/CabeceraObjetos";
 import FechaRango from "../components/FechaRango";
 import ProveedorFila from "../components/ProveedorFila";
-import axios from "axios";
 import "../Styles/ProveedoresPage.css";
 import FiltroOpciones from "../components/FiltroOpciones";
 import { Pie } from "react-chartjs-2";
 import 'chart.js/auto';
+
+import { fetchProveedoresConDatos } from "../api/ventas.api";
 
 export function ProveedoresPage() {
   const [proveedores, setProveedores] = useState([]);
@@ -24,21 +26,17 @@ export function ProveedoresPage() {
   }, [startDate, endDate, includeWithoutRequests, selectedTopOption, selectedOtherOption, topX]);
 
   const fetchData = () => {
-    axios.get('http://localhost:8000/ventas/api/proveedores-con-datos/', {
-      params: {
-        start_date: startDate,
-        end_date: endDate,
-        include_without_requests: includeWithoutRequests,
-        top_option: selectedTopOption,
-        other_option: selectedOtherOption,
-        top_x: topX
-      }
-    })
-    .then(response => {
-      setProveedores(response.data.proveedores);
-      setTotales(response.data.totales);
-    })
-    .catch(error => {
+    fetchProveedoresConDatos({
+      startDate,
+      endDate,
+      includeWithoutRequests,
+      topOption: selectedTopOption,
+      otherOption: selectedOtherOption,
+      topX
+    }).then(data => {
+      setProveedores(data.proveedores);
+      setTotales(data.totales);
+    }).catch(error => {
       console.error("Hubo un error al obtener los proveedores: ", error);
     });
   };

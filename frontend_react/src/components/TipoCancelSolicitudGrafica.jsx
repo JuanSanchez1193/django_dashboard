@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import { Pie } from 'react-chartjs-2';
 import 'chart.js/auto';
+import { fetchTipoCancelacion } from '../api/ventas.api'; 
 
 const TipoCancelSolicitudGrafica = ({ startDate, endDate }) => {
     const [tipoCancelData, setTipoCancelData] = useState({});
@@ -9,10 +9,8 @@ const TipoCancelSolicitudGrafica = ({ startDate, endDate }) => {
     useEffect(() => {
         const fetchTipoCancelData = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/ventas/api/resumen-solicitudes/', {
-                    params: { start_date: startDate, end_date: endDate }
-                });
-                setTipoCancelData(response.data.cancelacion_data);
+                const data = await fetchTipoCancelacion(startDate, endDate);
+                setTipoCancelData(data);
             } catch (error) {
                 console.error('Error fetching tipo cancelacion data:', error);
             }

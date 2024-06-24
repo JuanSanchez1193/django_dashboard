@@ -1,24 +1,23 @@
+// RazonesCancelacionGrafica.jsx
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import { Pie } from 'react-chartjs-2';
 import 'chart.js/auto';
+import { fetchRazonesCancelacion } from '../api/ventas.api'; 
 
 const RazonesCancelacionGrafica = ({ startDate, endDate }) => {
     const [razonesData, setRazonesData] = useState({});
 
     useEffect(() => {
-        const fetchRazonesData = async () => {
+        const fetchData = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/ventas/api/resumen-solicitudes/', {
-                    params: { start_date: startDate, end_date: endDate }
-                });
-                setRazonesData(response.data.razones_combined_data);
+                const data = await fetchRazonesCancelacion(startDate, endDate);
+                setRazonesData(data);
             } catch (error) {
                 console.error('Error fetching razones de cancelacion data:', error);
             }
         };
 
-        fetchRazonesData();
+        fetchData();
     }, [startDate, endDate]);
 
     const pieData = {

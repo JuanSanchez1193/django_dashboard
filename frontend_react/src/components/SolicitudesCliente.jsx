@@ -1,28 +1,21 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import { fetchSolicitudesCliente } from '../api/ventas.api';
 
 export function SolicitudesCliente({ clienteId, startDate, endDate }) {
   const [solicitudes, setSolicitudes] = useState([]);
 
   useEffect(() => {
+    const fetchSolicitudes = async () => {
+      try {
+        const data = await fetchSolicitudesCliente(clienteId, startDate, endDate);
+        setSolicitudes(data);
+      } catch (error) {
+        console.error('Error al obtener las solicitudes del cliente:', error);
+      }
+    };
+
     fetchSolicitudes();
   }, [clienteId, startDate, endDate]);
-
-  const fetchSolicitudes = () => {
-    axios.get('http://localhost:8000/ventas/api/solicitudes-cliente/', {
-      params: {
-        cliente: clienteId,
-        start_date: startDate,
-        end_date: endDate,
-      }
-    })
-    .then(response => {
-      setSolicitudes(response.data);
-    })
-    .catch(error => {
-      console.error('Error al obtener las solicitudes del cliente:', error);
-    });
-  };
 
   const getSolicitudEstado = (solicitud) => {
     const fechaCancelacion = solicitud.fecha_cancelacion ? new Date(solicitud.fecha_cancelacion) : null;

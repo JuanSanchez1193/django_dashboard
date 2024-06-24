@@ -1,12 +1,13 @@
+// SolicitudesPage.js
 import React, { useEffect, useState } from "react";
 import { CabeceraObjetos } from "../components/CabeceraObjetos";
 import FechaRango from "../components/FechaRango";
 import SolicitudFila from "../components/SolicitudFila";
-import axios from "axios";
 import "../Styles/SolicitudesPage.css";
 import FiltroOpciones from "../components/FiltroOpciones";
 import { Pie } from "react-chartjs-2";
 import 'chart.js/auto';
+import { fetchSolicitudesConDatos } from "../api/ventas.api";
 
 export function SolicitudesPage() {
   const [solicitudes, setSolicitudes] = useState([]);
@@ -24,21 +25,17 @@ export function SolicitudesPage() {
   }, [startDate, endDate, includeCancelled, selectedTopOption, selectedOtherOption, topX]);
 
   const fetchData = () => {
-    axios.get('http://localhost:8000/ventas/api/solicitudes-con-datos/', {
-      params: {
-        start_date: startDate,
-        end_date: endDate,
-        include_cancelled: includeCancelled,
-        top_option: selectedTopOption,
-        other_option: selectedOtherOption,
-        top_x: topX
-      }
-    })
-    .then(response => {
-      setSolicitudes(response.data.solicitudes);
-      setTotales(response.data.totales);
-    })
-    .catch(error => {
+    fetchSolicitudesConDatos({
+      startDate,
+      endDate,
+      includeCancelled,
+      topOption: selectedTopOption,
+      otherOption: selectedOtherOption,
+      topX
+    }).then(data => {
+      setSolicitudes(data.solicitudes);
+      setTotales(data.totales);
+    }).catch(error => {
       console.error("Hubo un error al obtener las solicitudes: ", error);
     });
   };

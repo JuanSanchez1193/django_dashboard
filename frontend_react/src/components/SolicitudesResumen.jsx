@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import { fetchResumenSolicitudes } from '../api/ventas.api'; 
 import '../Styles/SolicitudesResumen.css';
 
 const SolicitudesResumen = ({ startDate, endDate }) => {
@@ -8,10 +8,8 @@ const SolicitudesResumen = ({ startDate, endDate }) => {
     useEffect(() => {
         const fetchResumenData = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/ventas/api/resumen-solicitudes/', {
-                    params: { start_date: startDate, end_date: endDate }
-                });
-                setResumenData(response.data);
+                const data = await fetchResumenSolicitudes(startDate, endDate);
+                setResumenData(data);
             } catch (error) {
                 console.error('Error fetching resumen data:', error);
             }

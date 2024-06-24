@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-y8ovg)!5d=t!4(6((d(y^ekyi1=a@338_h(v=vwbboo2*v&219
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'web-production-b03f6.up.railway.app']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','web-production-b03f6.up.railway.app']
 
 
 # Application definition
@@ -61,7 +61,7 @@ ROOT_URLCONF = 'backend_django.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'frontend_react', 'dist')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'backend_django.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default="sqlite://db.sqlite3")
+    'default': dj_database_url.config(default="sqlite:///" + os.path.join(BASE_DIR, "db.sqlite3"))
 }
 
 
@@ -121,6 +121,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'frontend_react', 'dist')]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field

@@ -1,10 +1,10 @@
 // ventas.api.js
 import axios from 'axios';
 
-const URL = process.env.NODE_ENV === "production" ? import.meta.env.VITE_BACKEND_URL : "http://localhost:8000";
+//const URL = process.env.NODE_ENV === "production" ? import.meta.env.VITE_BACKEND_URL : "http://127.0.0.1:8000";
 
 const ventasApi = axios.create({
-  baseURL: `${URL}/ventas/api/`
+  baseURL: `http://127.0.0.1:8000/ventas/alpinito/`
 });
 
 export const buscadorCodigos = (searchTerm) => {

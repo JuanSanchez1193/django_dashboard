@@ -1,23 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Producto } from './Producto';
 import { Cliente } from './Cliente';
 import { Proveedor } from './Proveedor';
 import { Solicitud } from './Solicitud';
 
 export function Detalle() {
-  const location = useLocation();
-  const [data, setData] = useState(location.state?.data || null);
+  const { codigo } = useParams();
+  const [data, setData] = useState(null);
 
   useEffect(() => {
-    if (!data) {
-      // Intentar recuperar los datos de localStorage si no están en location.state
-      const storedData = localStorage.getItem('searchData');
-      if (storedData) {
-        setData(JSON.parse(storedData));
+    const storedData = localStorage.getItem('searchData');
+    if (storedData) {
+      const parsedData = JSON.parse(storedData);
+      if (parsedData.codigo === codigo) {
+        setData(parsedData);
       }
     }
-  }, [data]);
+  }, [codigo]);
 
   if (!data) {
     return <div>Cargando datos...</div>;

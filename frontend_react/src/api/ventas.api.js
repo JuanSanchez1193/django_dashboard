@@ -1,7 +1,7 @@
 // ventas.api.js
 import axios from 'axios';
 
-const URL = process.env.NODE_ENV === "production" ? import.meta.env.VITE_BACKEND_URL : "http://localhost:8000";
+const URL = process.env.NODE_ENV === "production" ? import.meta.env.VITE_BACKEND_URL : "http://127.0.0.1:8000/";
 
 const ventasApi = axios.create({
   baseURL: `${URL}/ventas/api/`
@@ -19,7 +19,7 @@ export const fetchRazonesCancelacion = async (startDate, endDate) => {
         return response.data.razones_combined_data;
     } catch (error) {
         console.error('Error fetching razones de cancelacion data:', error);
-        throw error; // Opcional: maneja el error de acuerdo a tu aplicación
+        throw error; 
     }
 };
 

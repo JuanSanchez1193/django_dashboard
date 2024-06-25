@@ -16,13 +16,11 @@ export function Buscador() {
       .then(response => {
         // Almacenar los datos en localStorage
         localStorage.setItem('searchData', JSON.stringify(response.data));
-        // Abrir una nueva pestaña con la URL
+        // Abrir una nueva pestaña con los datos
         window.open(`/codigo/${searchTerm}`, '_blank');
-        setError(null);
       })
       .catch(error => {
-        console.error('Error de búsqueda:', error);
-        setError('No se pudo completar la búsqueda. Inténtalo de nuevo más tarde.');
+        setError('Error al buscar el código.');
       });
   };
 

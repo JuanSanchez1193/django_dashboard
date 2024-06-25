@@ -2,6 +2,7 @@ db.sqlite3
 espaciovirtual
 __pycache__
 staticfiles
+.env
 
 # Dependencias y módulos generados
 /node_modules

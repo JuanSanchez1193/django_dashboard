@@ -1,1 +1,1 @@
-web : python manage.py migrate && python manage.py collectstatic && gunicorn backend_django.wsgi
+web : cd frontend_react && npm install && npm run build && python manage.py migrate && python manage.py collectstatic && gunicorn backend_django.wsgi

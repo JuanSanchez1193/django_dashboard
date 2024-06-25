@@ -154,8 +154,10 @@ def buscar_objeto_por_codigo(request, codigo):
     elif prefijo == 'S':
         solicitud = get_object_or_404(Solicitud, codigo=codigo)
         precio = solicitud.producto.precio
-        descuento = solicitud.descuento if solicitud.descuento else 0
-        total = (precio) - (precio * (descuento/100))
+        descuento = solicitud.descuento if solicitud.descuento else Decimal(0)
+
+        descuento_decimal = Decimal(descuento / 100)
+        total = precio - (precio * descuento_decimal)
 
         resultado = {
             'tipo': 'Solicitud',
